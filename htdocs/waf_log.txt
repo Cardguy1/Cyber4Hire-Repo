@@ -1,0 +1,8 @@
+[2025-04-13 21:22:59] Blocked pattern: ';' in value: 'vst=2|||uip=(none)|||uag=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36' from IP: 153.33.138.22
+[2025-04-13 21:22:59] Blocked pattern: ';' in value: 'vst=2|||uip=(none)|||uag=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36' from IP: 153.33.138.22
+[2025-04-13 21:23:17] Blocked pattern: ';' in value: 'vst=2|||uip=(none)|||uag=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36' from IP: 153.33.138.22
+[2025-04-13 21:23:17] Blocked pattern: ';' in value: 'vst=2|||uip=(none)|||uag=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36' from IP: 153.33.138.22
+[2025-04-13 21:23:48] Blocked pattern: ';' in value: 'vst=2|||uip=(none)|||uag=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36' from IP: 153.33.138.22
+[2025-04-13 21:23:48] Blocked pattern: ';' in value: 'vst=2|||uip=(none)|||uag=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36' from IP: 153.33.138.22
+[2025-04-13 21:23:53] Blocked pattern: ';' in value: 'vst=2|||uip=(none)|||uag=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36' from IP: 153.33.138.22
+[2025-04-13 21:23:53] Blocked pattern: ';' in value: 'vst=2|||uip=(none)|||uag=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36' from IP: 153.33.138.22

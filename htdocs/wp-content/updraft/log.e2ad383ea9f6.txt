@@ -1,0 +1,715 @@
+0000.000 (0) Opened log file at time: Thu, 17 Apr 2025 22:04:43 +0000 on https://cyber4hire.great-site.net
+0000.002 (0) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.25.5 WP: 6.7.2 PHP: 8.2.27 (apache2handler, Linux webserver.cluster.com 5.6.7-362.18.1.el9_5.x86_64 #1 SMP PREEMPT_DYNAMIC Thu Apr 17 22:04:43 UTC 2025 x86_64 x86_64 x86_64 GNU/Linux) MySQL: 10.6.21-MariaDB (max packet size=8388608) WPLANG: en_US Server: Apache safe_mode: 0 max_execution_time: 60 memory_limit: 512M (used: 110M | 113M) multisite: N openssl: OpenSSL 1.1.1w  11 Sep 2023 mcrypt: N LANG: C WP Proxy: disabled ZipArchive::addFile: Y
+0000.005 (0) Free space on disk containing Updraft's temporary directory: 3197930.4 MB
+0000.008 (0) Tasks: Backup files: 1 (schedule: unset) Backup DB: 1 (schedule: unset)
+0000.010 (0) Semaphore (fd, wpji_options) being initialised
+0000.013 (0) Requesting semaphore lock (fd) (apparently not via scheduler)
+0000.014 (0) Set semaphore last lock (fd) time to 2025-04-17 22:04:43
+0000.015 (0) Semaphore lock (fd) complete
+0000.018 (0) Backup run: resumption=0, nonce=e2ad383ea9f6, file_nonce=e2ad383ea9f6 begun at=1744927483 (0s ago), job type=backup
+0000.019 (0) Scheduling a resumption (1) after 300 seconds (1744927783) in case this run gets aborted
+0000.030 (0) PHP event: code E_WARNING: file_exists(): open_basedir restriction in effect. File(/proc/user_beancounters) is not within the allowed path(s): (/php_sessions:/tmp:..:/var/www/errors:/home/vol3_5/infinityfree.com/if0_38346062/htdocs) (line 188, wp-content/plugins/updraftplus/backup.php)
+0000.031 (0) Checking if we have a zip executable available
+0000.032 (0) Creation of backups of directories: beginning
+0000.036 (0) Beginning creation of dump of plugins (split every: 400 MB)
+0000.039 (0) PHP event: Could not ask cPanel about disk space (open_basedir) - this is not an error (line 420, wp-content/plugins/updraftplus/class-updraftplus.php)
+0006.618 (0) Total entities for the zip file: 1925 directories, 11370 files (0 skipped as non-modified), 166.8 MB
+0006.624 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (0 MB, 1 (1) files added so far); re-opening (prior size: 0 KB)
+0006.769 (0) Zip: backup_2025-04-17-2204_Cyber4Hire_e2ad383ea9f6-plugins.zip.tmp: 100 files added (on-disk size: 363.4 KB)
+0006.867 (0) Zip: backup_2025-04-17-2204_Cyber4Hire_e2ad383ea9f6-plugins.zip.tmp: 200 files added (on-disk size: 363.4 KB)
+0007.043 (0) Zip: backup_2025-04-17-2204_Cyber4Hire_e2ad383ea9f6-plugins.zip.tmp: 300 files added (on-disk size: 363.4 KB)
+0007.227 (0) Zip: backup_2025-04-17-2204_Cyber4Hire_e2ad383ea9f6-plugins.zip.tmp: 400 files added (on-disk size: 363.4 KB)
+0007.362 (0) Zip: backup_2025-04-17-2204_Cyber4Hire_e2ad383ea9f6-plugins.zip.tmp: 500 files added (on-disk size: 363.4 KB)
+0007.537 (0) Zip: backup_2025-04-17-2204_Cyber4Hire_e2ad383ea9f6-plugins.zip.tmp: 600 files added (on-disk size: 363.4 KB)
+0007.643 (0) Zip: backup_2025-04-17-2204_Cyber4Hire_e2ad383ea9f6-plugins.zip.tmp: 700 files added (on-disk size: 363.4 KB)
+0007.758 (0) Zip: backup_2025-04-17-2204_Cyber4Hire_e2ad383ea9f6-plugins.zip.tmp: 800 files added (on-disk size: 363.4 KB)
+0007.926 (0) Zip: backup_2025-04-17-2204_Cyber4Hire_e2ad383ea9f6-plugins.zip.tmp: 900 files added (on-disk size: 363.4 KB)
+0008.037 (0) Zip: backup_2025-04-17-2204_Cyber4Hire_e2ad383ea9f6-plugins.zip.tmp: 1000 files added (on-disk size: 363.4 KB)
+0008.040 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (9.1 MB, 11370 files batched, 1001 (1002) added so far); re-opening (prior size: 363.4 KB)
+0009.254 (0) Zip: backup_2025-04-17-2204_Cyber4Hire_e2ad383ea9f6-plugins.zip.tmp: 1100 files added (on-disk size: 3567.3 KB)
+0009.360 (0) Zip: backup_2025-04-17-2204_Cyber4Hire_e2ad383ea9f6-plugins.zip.tmp: 1200 files added (on-disk size: 3567.3 KB)
+0009.525 (0) Zip: backup_2025-04-17-2204_Cyber4Hire_e2ad383ea9f6-plugins.zip.tmp: 1300 files added (on-disk size: 3567.3 KB)
+0009.636 (0) Zip: backup_2025-04-17-2204_Cyber4Hire_e2ad383ea9f6-plugins.zip.tmp: 1400 files added (on-disk size: 3567.3 KB)
+0009.741 (0) Zip: backup_2025-04-17-2204_Cyber4Hire_e2ad383ea9f6-plugins.zip.tmp: 1500 files added (on-disk size: 3567.3 KB)
+0009.831 (0) Zip: backup_2025-04-17-2204_Cyber4Hire_e2ad383ea9f6-plugins.zip.tmp: 1600 files added (on-disk size: 3567.3 KB)
+0009.894 (0) Zip: backup_2025-04-17-2204_Cyber4Hire_e2ad383ea9f6-plugins.zip.tmp: 1700 files added (on-disk size: 3567.3 KB)
+0009.955 (0) Zip: backup_2025-04-17-2204_Cyber4Hire_e2ad383ea9f6-plugins.zip.tmp: 1800 files added (on-disk size: 3567.3 KB)
+0010.014 (0) Zip: backup_2025-04-17-2204_Cyber4Hire_e2ad383ea9f6-plugins.zip.tmp: 1900 files added (on-disk size: 3567.3 KB)
+0010.073 (0) Zip: backup_2025-04-17-2204_Cyber4Hire_e2ad383ea9f6-plugins.zip.tmp: 2000 files added (on-disk size: 3567.3 KB)
+0010.076 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (13.8 MB, 11370 files batched, 1001 (2003) added so far); re-opening (prior size: 3567.3 KB)
+0013.349 (0) Zip: backup_2025-04-17-2204_Cyber4Hire_e2ad383ea9f6-plugins.zip.tmp: 2100 files added (on-disk size: 11635.4 KB)
+0013.550 (0) Zip: backup_2025-04-17-2204_Cyber4Hire_e2ad383ea9f6-plugins.zip.tmp: 2200 files added (on-disk size: 11635.4 KB)
+0013.747 (0) Zip: backup_2025-04-17-2204_Cyber4Hire_e2ad383ea9f6-plugins.zip.tmp: 2300 files added (on-disk size: 11635.4 KB)
+0013.948 (0) Zip: backup_2025-04-17-2204_Cyber4Hire_e2ad383ea9f6-plugins.zip.tmp: 2400 files added (on-disk size: 11635.4 KB)
+0014.145 (0) Zip: backup_2025-04-17-2204_Cyber4Hire_e2ad383ea9f6-plugins.zip.tmp: 2500 files added (on-disk size: 11635.4 KB)
+0014.338 (0) Zip: backup_2025-04-17-2204_Cyber4Hire_e2ad383ea9f6-plugins.zip.tmp: 2600 files added (on-disk size: 11635.4 KB)
+0014.553 (0) Zip: backup_2025-04-17-2204_Cyber4Hire_e2ad383ea9f6-plugins.zip.tmp: 2700 files added (on-disk size: 11635.4 KB)
+0014.840 (0) Zip: backup_2025-04-17-2204_Cyber4Hire_e2ad383ea9f6-plugins.zip.tmp: 2800 files added (on-disk size: 11635.4 KB)
+0015.056 (0) Zip: backup_2025-04-17-2204_Cyber4Hire_e2ad383ea9f6-plugins.zip.tmp: 2900 files added (on-disk size: 11635.4 KB)
+0015.355 (0) Zip: backup_2025-04-17-2204_Cyber4Hire_e2ad383ea9f6-plugins.zip.tmp: 3000 files added (on-disk size: 11635.4 KB)
+0015.361 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (11.8 MB, 11370 files batched, 1001 (3004) added so far); re-opening (prior size: 11635.4 KB)
+0017.338 (0) Zip: backup_2025-04-17-2204_Cyber4Hire_e2ad383ea9f6-plugins.zip.tmp: 3100 files added (on-disk size: 14587.6 KB)
+0017.457 (0) Zip: backup_2025-04-17-2204_Cyber4Hire_e2ad383ea9f6-plugins.zip.tmp: 3200 files added (on-disk size: 14587.6 KB)
+0017.575 (0) Zip: backup_2025-04-17-2204_Cyber4Hire_e2ad383ea9f6-plugins.zip.tmp: 3300 files added (on-disk size: 14587.6 KB)
+0017.735 (0) Zip: backup_2025-04-17-2204_Cyber4Hire_e2ad383ea9f6-plugins.zip.tmp: 3400 files added (on-disk size: 14587.6 KB)
+0017.859 (0) Zip: backup_2025-04-17-2204_Cyber4Hire_e2ad383ea9f6-plugins.zip.tmp: 3500 files added (on-disk size: 14587.6 KB)
+0018.045 (0) Zip: backup_2025-04-17-2204_Cyber4Hire_e2ad383ea9f6-plugins.zip.tmp: 3600 files added (on-disk size: 14587.6 KB)
+0018.161 (0) Zip: backup_2025-04-17-2204_Cyber4Hire_e2ad383ea9f6-plugins.zip.tmp: 3700 files added (on-disk size: 14587.6 KB)
+0018.362 (0) Zip: backup_2025-04-17-2204_Cyber4Hire_e2ad383ea9f6-plugins.zip.tmp: 3800 files added (on-disk size: 14587.6 KB)
+0018.567 (0) Zip: backup_2025-04-17-2204_Cyber4Hire_e2ad383ea9f6-plugins.zip.tmp: 3900 files added (on-disk size: 14587.6 KB)
+0018.725 (0) Zip: backup_2025-04-17-2204_Cyber4Hire_e2ad383ea9f6-plugins.zip.tmp: 4000 files added (on-disk size: 14587.6 KB)
+0018.732 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (5.3 MB, 11370 files batched, 1001 (4005) added so far); re-opening (prior size: 14587.6 KB)
+0019.454 (0) Zip: backup_2025-04-17-2204_Cyber4Hire_e2ad383ea9f6-plugins.zip.tmp: 4100 files added (on-disk size: 16287 KB)
+0019.648 (0) Zip: backup_2025-04-17-2204_Cyber4Hire_e2ad383ea9f6-plugins.zip.tmp: 4200 files added (on-disk size: 16287 KB)
+0019.772 (0) Zip: backup_2025-04-17-2204_Cyber4Hire_e2ad383ea9f6-plugins.zip.tmp: 4300 files added (on-disk size: 16287 KB)
+0019.937 (0) Zip: backup_2025-04-17-2204_Cyber4Hire_e2ad383ea9f6-plugins.zip.tmp: 4400 files added (on-disk size: 16287 KB)
+0020.063 (0) Zip: backup_2025-04-17-2204_Cyber4Hire_e2ad383ea9f6-plugins.zip.tmp: 4500 files added (on-disk size: 16287 KB)
+0020.225 (0) Zip: backup_2025-04-17-2204_Cyber4Hire_e2ad383ea9f6-plugins.zip.tmp: 4600 files added (on-disk size: 16287 KB)
+0020.341 (0) Zip: backup_2025-04-17-2204_Cyber4Hire_e2ad383ea9f6-plugins.zip.tmp: 4700 files added (on-disk size: 16287 KB)
+0020.456 (0) Zip: backup_2025-04-17-2204_Cyber4Hire_e2ad383ea9f6-plugins.zip.tmp: 4800 files added (on-disk size: 16287 KB)
+0020.556 (0) Zip: backup_2025-04-17-2204_Cyber4Hire_e2ad383ea9f6-plugins.zip.tmp: 4900 files added (on-disk size: 16287 KB)
+0020.665 (0) Zip: backup_2025-04-17-2204_Cyber4Hire_e2ad383ea9f6-plugins.zip.tmp: 5000 files added (on-disk size: 16287 KB)
+0020.670 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (6.4 MB, 11370 files batched, 1001 (5006) added so far); re-opening (prior size: 16287 KB)
+0021.624 (0) Zip: backup_2025-04-17-2204_Cyber4Hire_e2ad383ea9f6-plugins.zip.tmp: 5100 files added (on-disk size: 18769.4 KB)
+0021.733 (0) Zip: backup_2025-04-17-2204_Cyber4Hire_e2ad383ea9f6-plugins.zip.tmp: 5200 files added (on-disk size: 18769.4 KB)
+0021.844 (0) Zip: backup_2025-04-17-2204_Cyber4Hire_e2ad383ea9f6-plugins.zip.tmp: 5300 files added (on-disk size: 18769.4 KB)
+0021.958 (0) Zip: backup_2025-04-17-2204_Cyber4Hire_e2ad383ea9f6-plugins.zip.tmp: 5400 files added (on-disk size: 18769.4 KB)
+0022.070 (0) Zip: backup_2025-04-17-2204_Cyber4Hire_e2ad383ea9f6-plugins.zip.tmp: 5500 files added (on-disk size: 18769.4 KB)
+0022.234 (0) Zip: backup_2025-04-17-2204_Cyber4Hire_e2ad383ea9f6-plugins.zip.tmp: 5600 files added (on-disk size: 18769.4 KB)
+0022.347 (0) Zip: backup_2025-04-17-2204_Cyber4Hire_e2ad383ea9f6-plugins.zip.tmp: 5700 files added (on-disk size: 18769.4 KB)
+0022.353 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 25 MB added on this batch (25.1 MB, 11370 files batched, 703 (5709) added so far); re-opening (prior size: 18769.4 KB)
+0028.741 (0) A useful amount of data was added after this amount of zip processing: 8.3 s (normalised: 8.2 s, rate: 3110.6 KB/s)
+0028.817 (0) Zip: backup_2025-04-17-2204_Cyber4Hire_e2ad383ea9f6-plugins.zip.tmp: 5800 files added (on-disk size: 35493.7 KB)
+0028.897 (0) Zip: backup_2025-04-17-2204_Cyber4Hire_e2ad383ea9f6-plugins.zip.tmp: 5900 files added (on-disk size: 35493.7 KB)
+0028.968 (0) Zip: backup_2025-04-17-2204_Cyber4Hire_e2ad383ea9f6-plugins.zip.tmp: 6000 files added (on-disk size: 35493.7 KB)
+0029.035 (0) Zip: backup_2025-04-17-2204_Cyber4Hire_e2ad383ea9f6-plugins.zip.tmp: 6100 files added (on-disk size: 35493.7 KB)
+0029.101 (0) Zip: backup_2025-04-17-2204_Cyber4Hire_e2ad383ea9f6-plugins.zip.tmp: 6200 files added (on-disk size: 35493.7 KB)
+0029.178 (0) Zip: backup_2025-04-17-2204_Cyber4Hire_e2ad383ea9f6-plugins.zip.tmp: 6300 files added (on-disk size: 35493.7 KB)
+0029.250 (0) Zip: backup_2025-04-17-2204_Cyber4Hire_e2ad383ea9f6-plugins.zip.tmp: 6400 files added (on-disk size: 35493.7 KB)
+0029.322 (0) Zip: backup_2025-04-17-2204_Cyber4Hire_e2ad383ea9f6-plugins.zip.tmp: 6500 files added (on-disk size: 35493.7 KB)
+0029.389 (0) Zip: backup_2025-04-17-2204_Cyber4Hire_e2ad383ea9f6-plugins.zip.tmp: 6600 files added (on-disk size: 35493.7 KB)
+0029.453 (0) Zip: backup_2025-04-17-2204_Cyber4Hire_e2ad383ea9f6-plugins.zip.tmp: 6700 files added (on-disk size: 35493.7 KB)
+0029.461 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (21.1 MB, 11370 files batched, 1001 (6710) added so far); re-opening (prior size: 35493.7 KB)
+0034.867 (0) Zip: backup_2025-04-17-2204_Cyber4Hire_e2ad383ea9f6-plugins.zip.tmp: 6800 files added (on-disk size: 48071.4 KB)
+0035.040 (0) Zip: backup_2025-04-17-2204_Cyber4Hire_e2ad383ea9f6-plugins.zip.tmp: 6900 files added (on-disk size: 48071.4 KB)
+0035.165 (0) Zip: backup_2025-04-17-2204_Cyber4Hire_e2ad383ea9f6-plugins.zip.tmp: 7000 files added (on-disk size: 48071.4 KB)
+0035.334 (0) Zip: backup_2025-04-17-2204_Cyber4Hire_e2ad383ea9f6-plugins.zip.tmp: 7100 files added (on-disk size: 48071.4 KB)
+0035.437 (0) Zip: backup_2025-04-17-2204_Cyber4Hire_e2ad383ea9f6-plugins.zip.tmp: 7200 files added (on-disk size: 48071.4 KB)
+0035.548 (0) Zip: backup_2025-04-17-2204_Cyber4Hire_e2ad383ea9f6-plugins.zip.tmp: 7300 files added (on-disk size: 48071.4 KB)
+0035.663 (0) Zip: backup_2025-04-17-2204_Cyber4Hire_e2ad383ea9f6-plugins.zip.tmp: 7400 files added (on-disk size: 48071.4 KB)
+0035.825 (0) Zip: backup_2025-04-17-2204_Cyber4Hire_e2ad383ea9f6-plugins.zip.tmp: 7500 files added (on-disk size: 48071.4 KB)
+0035.937 (0) Zip: backup_2025-04-17-2204_Cyber4Hire_e2ad383ea9f6-plugins.zip.tmp: 7600 files added (on-disk size: 48071.4 KB)
+0036.045 (0) Zip: backup_2025-04-17-2204_Cyber4Hire_e2ad383ea9f6-plugins.zip.tmp: 7700 files added (on-disk size: 48071.4 KB)
+0036.052 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (8.3 MB, 11370 files batched, 1001 (7711) added so far); re-opening (prior size: 48071.4 KB)
+0037.334 (0) Zip: backup_2025-04-17-2204_Cyber4Hire_e2ad383ea9f6-plugins.zip.tmp: 7800 files added (on-disk size: 50811.4 KB)
+0037.412 (0) Zip: backup_2025-04-17-2204_Cyber4Hire_e2ad383ea9f6-plugins.zip.tmp: 7900 files added (on-disk size: 50811.4 KB)
+0037.469 (0) Zip: backup_2025-04-17-2204_Cyber4Hire_e2ad383ea9f6-plugins.zip.tmp: 8000 files added (on-disk size: 50811.4 KB)
+0037.533 (0) Zip: backup_2025-04-17-2204_Cyber4Hire_e2ad383ea9f6-plugins.zip.tmp: 8100 files added (on-disk size: 50811.4 KB)
+0037.597 (0) Zip: backup_2025-04-17-2204_Cyber4Hire_e2ad383ea9f6-plugins.zip.tmp: 8200 files added (on-disk size: 50811.4 KB)
+0037.652 (0) Zip: backup_2025-04-17-2204_Cyber4Hire_e2ad383ea9f6-plugins.zip.tmp: 8300 files added (on-disk size: 50811.4 KB)
+0037.706 (0) Zip: backup_2025-04-17-2204_Cyber4Hire_e2ad383ea9f6-plugins.zip.tmp: 8400 files added (on-disk size: 50811.4 KB)
+0037.768 (0) Zip: backup_2025-04-17-2204_Cyber4Hire_e2ad383ea9f6-plugins.zip.tmp: 8500 files added (on-disk size: 50811.4 KB)
+0037.837 (0) Zip: backup_2025-04-17-2204_Cyber4Hire_e2ad383ea9f6-plugins.zip.tmp: 8600 files added (on-disk size: 50811.4 KB)
+0037.887 (0) Zip: backup_2025-04-17-2204_Cyber4Hire_e2ad383ea9f6-plugins.zip.tmp: 8700 files added (on-disk size: 50811.4 KB)
+0037.895 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (20.3 MB, 11370 files batched, 1001 (8712) added so far); re-opening (prior size: 50811.4 KB)
+0040.195 (0) Zip: backup_2025-04-17-2204_Cyber4Hire_e2ad383ea9f6-plugins.zip.tmp: 8800 files added (on-disk size: 58741.7 KB)
+0040.256 (0) Zip: backup_2025-04-17-2204_Cyber4Hire_e2ad383ea9f6-plugins.zip.tmp: 8900 files added (on-disk size: 58741.7 KB)
+0040.314 (0) Zip: backup_2025-04-17-2204_Cyber4Hire_e2ad383ea9f6-plugins.zip.tmp: 9000 files added (on-disk size: 58741.7 KB)
+0040.382 (0) Zip: backup_2025-04-17-2204_Cyber4Hire_e2ad383ea9f6-plugins.zip.tmp: 9100 files added (on-disk size: 58741.7 KB)
+0040.445 (0) Zip: backup_2025-04-17-2204_Cyber4Hire_e2ad383ea9f6-plugins.zip.tmp: 9200 files added (on-disk size: 58741.7 KB)
+0040.504 (0) Zip: backup_2025-04-17-2204_Cyber4Hire_e2ad383ea9f6-plugins.zip.tmp: 9300 files added (on-disk size: 58741.7 KB)
+0040.563 (0) Zip: backup_2025-04-17-2204_Cyber4Hire_e2ad383ea9f6-plugins.zip.tmp: 9400 files added (on-disk size: 58741.7 KB)
+0040.619 (0) Zip: backup_2025-04-17-2204_Cyber4Hire_e2ad383ea9f6-plugins.zip.tmp: 9500 files added (on-disk size: 58741.7 KB)
+0040.682 (0) Zip: backup_2025-04-17-2204_Cyber4Hire_e2ad383ea9f6-plugins.zip.tmp: 9600 files added (on-disk size: 58741.7 KB)
+0040.758 (0) Zip: backup_2025-04-17-2204_Cyber4Hire_e2ad383ea9f6-plugins.zip.tmp: 9700 files added (on-disk size: 58741.7 KB)
+0040.769 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (15.2 MB, 11370 files batched, 1001 (9713) added so far); re-opening (prior size: 58741.7 KB)
+0041.580 (0) Zip: backup_2025-04-17-2204_Cyber4Hire_e2ad383ea9f6-plugins.zip.tmp: 9800 files added (on-disk size: 65771.7 KB)
+0041.646 (0) Zip: backup_2025-04-17-2204_Cyber4Hire_e2ad383ea9f6-plugins.zip.tmp: 9900 files added (on-disk size: 65771.7 KB)
+0041.701 (0) Zip: backup_2025-04-17-2204_Cyber4Hire_e2ad383ea9f6-plugins.zip.tmp: 10000 files added (on-disk size: 65771.7 KB)
+0041.753 (0) Zip: backup_2025-04-17-2204_Cyber4Hire_e2ad383ea9f6-plugins.zip.tmp: 10100 files added (on-disk size: 65771.7 KB)
+0041.804 (0) Zip: backup_2025-04-17-2204_Cyber4Hire_e2ad383ea9f6-plugins.zip.tmp: 10200 files added (on-disk size: 65771.7 KB)
+0041.857 (0) Zip: backup_2025-04-17-2204_Cyber4Hire_e2ad383ea9f6-plugins.zip.tmp: 10300 files added (on-disk size: 65771.7 KB)
+0041.914 (0) Zip: backup_2025-04-17-2204_Cyber4Hire_e2ad383ea9f6-plugins.zip.tmp: 10400 files added (on-disk size: 65771.7 KB)
+0041.963 (0) Zip: backup_2025-04-17-2204_Cyber4Hire_e2ad383ea9f6-plugins.zip.tmp: 10500 files added (on-disk size: 65771.7 KB)
+0042.015 (0) Zip: backup_2025-04-17-2204_Cyber4Hire_e2ad383ea9f6-plugins.zip.tmp: 10600 files added (on-disk size: 65771.7 KB)
+0042.070 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 25 MB added on this batch (25 MB, 11370 files batched, 965 (10678) added so far); re-opening (prior size: 65771.7 KB)
+0045.259 (0) A useful amount of data was added after this amount of zip processing: 4.8 s (normalised: 4.8 s, rate: 5363 KB/s)
+0045.261 (0) Performance is good - will increase the amount of data we attempt to batch (time=4.77415299416, normalised_time=4.77344774959, max_time=45.2596800327, data points known=1, old_max_bytes=26214400, new_max_bytes=149131875)
+0045.381 (0) Zip: backup_2025-04-17-2204_Cyber4Hire_e2ad383ea9f6-plugins.zip.tmp: 10700 files added (on-disk size: 73430.9 KB)
+0045.520 (0) Zip: backup_2025-04-17-2204_Cyber4Hire_e2ad383ea9f6-plugins.zip.tmp: 10800 files added (on-disk size: 73430.9 KB)
+0045.614 (0) Zip: backup_2025-04-17-2204_Cyber4Hire_e2ad383ea9f6-plugins.zip.tmp: 10900 files added (on-disk size: 73430.9 KB)
+0045.685 (0) Zip: backup_2025-04-17-2204_Cyber4Hire_e2ad383ea9f6-plugins.zip.tmp: 11000 files added (on-disk size: 73430.9 KB)
+0045.755 (0) Zip: backup_2025-04-17-2204_Cyber4Hire_e2ad383ea9f6-plugins.zip.tmp: 11100 files added (on-disk size: 73430.9 KB)
+0045.839 (0) Zip: backup_2025-04-17-2204_Cyber4Hire_e2ad383ea9f6-plugins.zip.tmp: 11200 files added (on-disk size: 73430.9 KB)
+0045.913 (0) Zip: backup_2025-04-17-2204_Cyber4Hire_e2ad383ea9f6-plugins.zip.tmp: 11300 files added (on-disk size: 73430.9 KB)
+0046.497 (0) Creating zip file manifest (backup_2025-04-17-2204_Cyber4Hire_e2ad383ea9f6-plugins.zip.list-temp.tmp)
+0046.512 (0) Successfully created zip file manifest (size: 1004057)
+0058.773 (0) Created plugins zip (0) - 75150.4 KB in 58.7 s (1279.5 KB/s) (sha1: 975ef5680c62c65d5ba96472ad07d7b4020e52e9, sha256: 0ce00555a1e48a5ae8892700cf17042d4e25ddf653e13df5581c7ccef7c1d04b)
+0058.784 (0) Cloud backup selection (1/1): none with instance (1/1) (last)
+0058.785 (0) No remote despatch: user chose no remote backup service
+0058.824 (0) Recording as successfully uploaded: backup_2025-04-17-2204_Cyber4Hire_e2ad383ea9f6-plugins.zip
+0058.826 (0) Deleting zip manifest (backup_2025-04-17-2204_Cyber4Hire_e2ad383ea9f6-plugins.zip.list.tmp)
+0058.829 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0058.830 (0) Number of backup sets in history: 0; groups (db): 1
+0058.831 (0) Number of backup sets in history: 0; groups (files): 1
+0058.831 (0) Retain: saving new backup history (sets now: 0) and finishing retain operation
+0058.837 (0) Beginning creation of dump of themes (split every: 400 MB)
+0058.839 (0) PHP event: Could not ask cPanel about disk space (open_basedir) - this is not an error (line 420, wp-content/plugins/updraftplus/class-updraftplus.php)
+0059.589 (0) Total entities for the zip file: 419 directories, 1472 files (0 skipped as non-modified), 46.3 MB
+0059.641 (0) Zip: backup_2025-04-17-2204_Cyber4Hire_e2ad383ea9f6-themes.zip.tmp: 100 files added (on-disk size: 0 KB)
+0059.690 (0) Zip: backup_2025-04-17-2204_Cyber4Hire_e2ad383ea9f6-themes.zip.tmp: 200 files added (on-disk size: 0 KB)
+0059.743 (0) Zip: backup_2025-04-17-2204_Cyber4Hire_e2ad383ea9f6-themes.zip.tmp: 300 files added (on-disk size: 0 KB)
+0059.796 (0) Zip: backup_2025-04-17-2204_Cyber4Hire_e2ad383ea9f6-themes.zip.tmp: 400 files added (on-disk size: 0 KB)
+0059.849 (0) Zip: backup_2025-04-17-2204_Cyber4Hire_e2ad383ea9f6-themes.zip.tmp: 500 files added (on-disk size: 0 KB)
+0059.899 (0) Zip: backup_2025-04-17-2204_Cyber4Hire_e2ad383ea9f6-themes.zip.tmp: 600 files added (on-disk size: 0 KB)
+0059.951 (0) Zip: backup_2025-04-17-2204_Cyber4Hire_e2ad383ea9f6-themes.zip.tmp: 700 files added (on-disk size: 0 KB)
+0060.014 (0) Zip: backup_2025-04-17-2204_Cyber4Hire_e2ad383ea9f6-themes.zip.tmp: 800 files added (on-disk size: 0 KB)
+0060.076 (0) Zip: backup_2025-04-17-2204_Cyber4Hire_e2ad383ea9f6-themes.zip.tmp: 900 files added (on-disk size: 0 KB)
+0060.154 (0) Zip: backup_2025-04-17-2204_Cyber4Hire_e2ad383ea9f6-themes.zip.tmp: 1000 files added (on-disk size: 0 KB)
+0060.156 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (35.5 MB, 1472 files batched, 1001 (1001) added so far); re-opening (prior size: 0 KB)
+0065.175 (0) Zip: backup_2025-04-17-2204_Cyber4Hire_e2ad383ea9f6-themes.zip.tmp: 1100 files added (on-disk size: 23501.8 KB)
+0065.244 (0) Zip: backup_2025-04-17-2204_Cyber4Hire_e2ad383ea9f6-themes.zip.tmp: 1200 files added (on-disk size: 23501.8 KB)
+0065.320 (0) Zip: backup_2025-04-17-2204_Cyber4Hire_e2ad383ea9f6-themes.zip.tmp: 1300 files added (on-disk size: 23501.8 KB)
+0065.381 (0) Zip: backup_2025-04-17-2204_Cyber4Hire_e2ad383ea9f6-themes.zip.tmp: 1400 files added (on-disk size: 23501.8 KB)
+0066.052 (0) Creating zip file manifest (backup_2025-04-17-2204_Cyber4Hire_e2ad383ea9f6-themes.zip.list-temp.tmp)
+0066.055 (0) Successfully created zip file manifest (size: 113776)
+0069.676 (0) Created themes zip (0) - 26584.8 KB in 10.8 s (2453.5 KB/s) (sha1: 8d83e88782ee51b88ecfa0915bd364c599c81c48, sha256: a2d7e418945e119bc97b4ffd7ccd7a2f1bad85f8d25f2c8510408a7763b16f5c)
+0069.681 (0) Cloud backup selection (1/1): none with instance (1/1) (last)
+0069.681 (0) No remote despatch: user chose no remote backup service
+0069.683 (0) Recording as successfully uploaded: backup_2025-04-17-2204_Cyber4Hire_e2ad383ea9f6-themes.zip
+0069.685 (0) Deleting zip manifest (backup_2025-04-17-2204_Cyber4Hire_e2ad383ea9f6-themes.zip.list.tmp)
+0069.687 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0069.690 (0) Number of backup sets in history: 0; groups (db): 1
+0069.691 (0) Number of backup sets in history: 0; groups (files): 1
+0069.692 (0) Retain: saving new backup history (sets now: 0) and finishing retain operation
+0069.697 (0) Exclusion option setting (uploads): backup*,*backups,backwpup*,wp-clone,snapshots
+0069.698 (0) Looking for candidates to backup in: /home/vol3_5/infinityfree.com/if0_38346062/htdocs/wp-content/uploads
+0069.699 (0) finding files: popularfx-templates: adding to list (1)
+0069.699 (0) finding files: 2025: adding to list (2)
+0069.700 (0) finding files: ur-logs: adding to list (3)
+0069.701 (0) finding files: user_registration_uploads: adding to list (4)
+0069.701 (0) finding files: elementor: adding to list (5)
+0069.702 (0) finding files: woocommerce_uploads: adding to list (6)
+0069.702 (0) finding files: woocommerce-placeholder.png: adding to list (7)
+0069.703 (0) finding files: woocommerce-placeholder-300x300.png: adding to list (8)
+0069.704 (0) finding files: woocommerce-placeholder-1024x1024.png: adding to list (9)
+0069.704 (0) finding files: woocommerce-placeholder-150x150.png: adding to list (10)
+0069.705 (0) finding files: woocommerce-placeholder-768x768.png: adding to list (11)
+0069.705 (0) finding files: wc-logs: adding to list (12)
+0069.706 (0) finding files: wp-defender: adding to list (13)
+0069.707 (0) finding files: cleantalk_fw_files_for_blog_1: adding to list (14)
+0069.707 (0) Beginning creation of dump of uploads (split every: 400 MB)
+0069.710 (0) PHP event: Could not ask cPanel about disk space (open_basedir) - this is not an error (line 420, wp-content/plugins/updraftplus/class-updraftplus.php)
+0069.767 (0) Total entities for the zip file: 23 directories, 207 files (0 skipped as non-modified), 12.6 MB
+0069.818 (0) Zip: backup_2025-04-17-2204_Cyber4Hire_e2ad383ea9f6-uploads.zip.tmp: 100 files added (on-disk size: 0 KB)
+0069.867 (0) Zip: backup_2025-04-17-2204_Cyber4Hire_e2ad383ea9f6-uploads.zip.tmp: 200 files added (on-disk size: 0 KB)
+0073.330 (0) Creating zip file manifest (backup_2025-04-17-2204_Cyber4Hire_e2ad383ea9f6-uploads.zip.list-temp.tmp)
+0073.332 (0) Successfully created zip file manifest (size: 15703)
+0073.554 (0) Created uploads zip (0) - 12781.2 KB in 3.8 s (3326.7 KB/s) (sha1: 9886bacc00676e8fe1acbff908b4b5ed024938de, sha256: 50be640ec7f4d1a0ff660b7f91dbc47bf508769371746acc096955a474d1c288)
+0073.558 (0) Cloud backup selection (1/1): none with instance (1/1) (last)
+0073.558 (0) No remote despatch: user chose no remote backup service
+0073.559 (0) Recording as successfully uploaded: backup_2025-04-17-2204_Cyber4Hire_e2ad383ea9f6-uploads.zip
+0073.562 (0) Deleting zip manifest (backup_2025-04-17-2204_Cyber4Hire_e2ad383ea9f6-uploads.zip.list.tmp)
+0073.564 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0073.565 (0) Number of backup sets in history: 0; groups (db): 1
+0073.565 (0) Number of backup sets in history: 0; groups (files): 1
+0073.566 (0) Retain: saving new backup history (sets now: 0) and finishing retain operation
+0073.570 (0) No backup of mu-plugins: excluded by user's options
+0073.572 (0) Beginning backup of other directories found in the content directory (index: 0)
+0073.573 (0) Exclusion option setting (others): upgrade,cache,updraft,backup*,*backups,mysql.sql,debug.log
+0073.573 (0) Looking for candidates to backup in: /home/vol3_5/infinityfree.com/if0_38346062/htdocs/wp-content
+0073.574 (0) finding files: index.php: adding to list (1)
+0073.575 (0) finding files: plugins: skipping: this is the plugins directory
+0073.575 (0) finding files: themes: skipping: this is the themes directory
+0073.576 (0) finding files: uploads: skipping: this is the uploads directory
+0073.577 (0) finding files: upgrade: skipping: excluded by options
+0073.577 (0) finding files: upgrade-temp-backup: adding to list (2)
+0073.578 (0) finding files: fonts: adding to list (3)
+0073.578 (0) finding files: wp-defender-secrets.php: adding to list (4)
+0073.579 (0) finding files: jetpack-waf: adding to list (5)
+0073.580 (0) finding files: updraft: skipping: this is the updraft directory
+0073.624 (0) PHP event: Could not ask cPanel about disk space (open_basedir) - this is not an error (line 420, wp-content/plugins/updraftplus/class-updraftplus.php)
+0073.643 (0) Total entities for the zip file: 8 directories, 62 files (0 skipped as non-modified), 0.5 MB
+0073.754 (0) Creating zip file manifest (backup_2025-04-17-2204_Cyber4Hire_e2ad383ea9f6-others.zip.list-temp.tmp)
+0073.756 (0) Successfully created zip file manifest (size: 4144)
+0073.766 (0) Created others zip (0) - 515.7 KB in 0.1 s (3703.8 KB/s) (sha1: f07b5f08b4262f5af01e7dc5bd093fed46a485b8, sha256: 6850b3b7dcad71b8bb4be8cf9d3cae3997047cf9c3ce92e5f00300f7503232fc)
+0073.770 (0) Cloud backup selection (1/1): none with instance (1/1) (last)
+0073.770 (0) No remote despatch: user chose no remote backup service
+0073.771 (0) Recording as successfully uploaded: backup_2025-04-17-2204_Cyber4Hire_e2ad383ea9f6-others.zip
+0073.773 (0) Deleting zip manifest (backup_2025-04-17-2204_Cyber4Hire_e2ad383ea9f6-others.zip.list.tmp)
+0073.775 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0073.776 (0) Number of backup sets in history: 0; groups (db): 1
+0073.777 (0) Number of backup sets in history: 0; groups (files): 1
+0073.777 (0) Retain: saving new backup history (sets now: 0) and finishing retain operation
+0073.785 (0) Saving backup status to database (elements: 8)
+0073.787 (0) Beginning creation of database dump (WordPress DB)
+0073.788 (0) Couldn't get the sql_mode value (N;); will not attempt any adjustment
+0073.835 (0) Table wpji_options: Total expected rows (via COUNT): 804
+0074.024 (0) Table wpji_options: Rows added in this batch (next record: 1698): 800 (uncompressed bytes in this segment=3221465) in 0.20 seconds
+0074.030 (0) Table wpji_options: finishing file(s) (2, 410.7 KB)
+0074.035 (0) Table wpji_users: Total expected rows (via COUNT): 4
+0074.036 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0074.038 (0) Table wpji_users: Rows added in this batch (next record: 4): 4 (uncompressed bytes in this segment=1714) in 0.00 seconds
+0074.042 (0) Table wpji_users: finishing file(s) (2, 0.8 KB)
+0074.048 (0) Table wpji_usermeta: Total expected rows (via COUNT): 115
+0074.049 (0) Table is relatively small; fetch_rows will thus be: 200 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0074.052 (0) Table wpji_usermeta: Rows added in this batch (next record: 132): 115 (uncompressed bytes in this segment=11166) in 0.01 seconds
+0074.057 (0) Table wpji_usermeta: finishing file(s) (2, 3.7 KB)
+0074.063 (0) Table wpji_actionscheduler_actions: Total expected rows (via COUNT): 46
+0074.063 (0) Table is relatively small; fetch_rows will thus be: 50 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0074.067 (0) Table wpji_actionscheduler_actions: Rows added in this batch (next record: 156): 46 (uncompressed bytes in this segment=17535) in 0.01 seconds
+0074.071 (0) Table wpji_actionscheduler_actions: finishing file(s) (2, 1.8 KB)
+0074.075 (0) Table wpji_actionscheduler_claims: Total expected rows (via COUNT): 0
+0074.077 (0) Table wpji_actionscheduler_claims: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=618) in 0.00 seconds
+0074.081 (0) Table wpji_actionscheduler_claims: finishing file(s) (2, 0.4 KB)
+0074.085 (0) Table wpji_actionscheduler_groups: Total expected rows (via COUNT): 6
+0074.085 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0074.087 (0) Table wpji_actionscheduler_groups: Rows added in this batch (next record: 6): 6 (uncompressed bytes in this segment=807) in 0.00 seconds
+0074.091 (0) Table wpji_actionscheduler_groups: finishing file(s) (2, 0.5 KB)
+0074.095 (0) Table wpji_actionscheduler_logs: Total expected rows (via COUNT): 46
+0074.096 (0) Table is relatively small; fetch_rows will thus be: 50 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0074.099 (0) Table wpji_actionscheduler_logs: Rows added in this batch (next record: 46): 46 (uncompressed bytes in this segment=4306) in 0.00 seconds
+0074.127 (0) Table wpji_actionscheduler_logs: finishing file(s) (2, 0.9 KB)
+0074.132 (0) Table wpji_commentmeta: Total expected rows (via COUNT): 4
+0074.133 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0074.136 (0) Table wpji_commentmeta: Rows added in this batch (next record: 4): 4 (uncompressed bytes in this segment=801) in 0.01 seconds
+0074.140 (0) Table wpji_commentmeta: finishing file(s) (2, 0.4 KB)
+0074.144 (0) Table wpji_comments: Total expected rows (via COUNT): 7
+0074.145 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0074.146 (0) Table wpji_comments: Rows added in this batch (next record: 7): 7 (uncompressed bytes in this segment=3639) in 0.00 seconds
+0074.150 (0) Table wpji_comments: finishing file(s) (2, 1.3 KB)
+0074.154 (0) Table wpji_links: Total expected rows (via COUNT): 0
+0074.156 (0) Table wpji_links: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1039) in 0.00 seconds
+0074.159 (0) Table wpji_links: finishing file(s) (2, 0.5 KB)
+0074.164 (0) Table wpji_postmeta: Total expected rows (via COUNT): 453
+0074.165 (0) Table is relatively small; fetch_rows will thus be: 500 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0074.171 (0) Table wpji_postmeta: Rows added in this batch (next record: 533): 453 (uncompressed bytes in this segment=62204) in 0.01 seconds
+0074.175 (0) Table wpji_postmeta: finishing file(s) (2, 8.8 KB)
+0074.181 (0) Table wpji_posts: Total expected rows (via COUNT): 145
+0074.182 (0) Table is relatively small; fetch_rows will thus be: 250 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0074.210 (0) Table wpji_posts: Rows added in this batch (next record: 155): 145 (uncompressed bytes in this segment=1157425) in 0.03 seconds
+0074.225 (0) Table wpji_posts: finishing file(s) (2, 69.2 KB)
+0074.229 (0) Table wpji_term_relationships: Total expected rows (approximate): 30
+0074.231 (0) Table wpji_term_relationships: Rows added in this batch (next record: 100000): 30 (uncompressed bytes in this segment=1120) in 0.00 seconds
+0074.235 (0) Table wpji_term_relationships: finishing file(s) (2, 0.5 KB)
+0074.241 (0) Table wpji_term_taxonomy: Total expected rows (via COUNT): 23
+0074.242 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0074.244 (0) Table wpji_term_taxonomy: Rows added in this batch (next record: 23): 23 (uncompressed bytes in this segment=1749) in 0.01 seconds
+0074.249 (0) Table wpji_term_taxonomy: finishing file(s) (2, 0.6 KB)
+0074.254 (0) Table wpji_termmeta: Total expected rows (via COUNT): 12
+0074.254 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0074.256 (0) Table wpji_termmeta: Rows added in this batch (next record: 12): 12 (uncompressed bytes in this segment=1099) in 0.00 seconds
+0074.260 (0) Table wpji_termmeta: finishing file(s) (2, 0.5 KB)
+0074.264 (0) Table wpji_terms: Total expected rows (via COUNT): 23
+0074.265 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0074.266 (0) Table wpji_terms: Rows added in this batch (next record: 23): 23 (uncompressed bytes in this segment=1604) in 0.00 seconds
+0074.270 (0) Table wpji_terms: finishing file(s) (2, 0.7 KB)
+0074.274 (0) Table wpji_wc_category_lookup: Total expected rows (approximate): 5
+0074.276 (0) Table wpji_wc_category_lookup: Rows added in this batch (next record: 1000): 5 (uncompressed bytes in this segment=647) in 0.00 seconds
+0074.279 (0) Table wpji_wc_category_lookup: finishing file(s) (2, 0.4 KB)
+0074.283 (0) Table wpji_wc_product_meta_lookup: Total expected rows (via COUNT): 6
+0074.284 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0074.287 (0) Table wpji_wc_product_meta_lookup: Rows added in this batch (next record: 147): 6 (uncompressed bytes in this segment=1941) in 0.00 seconds
+0074.290 (0) Table wpji_wc_product_meta_lookup: finishing file(s) (2, 0.7 KB)
+0074.294 (0) Table wpji_wc_reserved_stock: Total expected rows (approximate): 0
+0074.296 (0) Table wpji_wc_reserved_stock: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=675) in 0.00 seconds
+0074.299 (0) Table wpji_wc_reserved_stock: finishing file(s) (2, 0.4 KB)
+0074.303 (0) Table wpji_wc_tax_rate_classes: Total expected rows (via COUNT): 2
+0074.304 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0074.306 (0) Table wpji_wc_tax_rate_classes: Rows added in this batch (next record: 2): 2 (uncompressed bytes in this segment=764) in 0.00 seconds
+0074.310 (0) Table wpji_wc_tax_rate_classes: finishing file(s) (2, 0.4 KB)
+0074.315 (0) Table wpji_woocommerce_order_itemmeta: Total expected rows (via COUNT): 9
+0074.316 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0074.317 (0) Table wpji_woocommerce_order_itemmeta: Rows added in this batch (next record: 9): 9 (uncompressed bytes in this segment=1116) in 0.00 seconds
+0074.321 (0) Table wpji_woocommerce_order_itemmeta: finishing file(s) (2, 0.5 KB)
+0074.327 (0) Table wpji_woocommerce_payment_tokenmeta: Total expected rows (via COUNT): 0
+0074.329 (0) Table wpji_woocommerce_payment_tokenmeta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=761) in 0.00 seconds
+0074.333 (0) Table wpji_woocommerce_payment_tokenmeta: finishing file(s) (2, 0.4 KB)
+0074.337 (0) Table wpji_bv_activities_store: Total expected rows (via COUNT): 6
+0074.338 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0074.340 (0) Table wpji_bv_activities_store: Rows added in this batch (next record: 106): 6 (uncompressed bytes in this segment=2308) in 0.00 seconds
+0074.344 (0) Table wpji_bv_activities_store: finishing file(s) (2, 0.9 KB)
+0074.348 (0) Table wpji_bv_fw_requests: Total expected rows (via COUNT): 99
+0074.349 (0) Table is relatively small; fetch_rows will thus be: 100 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0074.354 (0) Table wpji_bv_fw_requests: Rows added in this batch (next record: 1083): 99 (uncompressed bytes in this segment=79414) in 0.01 seconds
+0074.357 (0) Table wpji_bv_fw_requests: finishing file(s) (2, 6.2 KB)
+0074.361 (0) Table wpji_bv_ip_store: Total expected rows (approximate): 8175
+0074.427 (0) Table wpji_bv_ip_store: Rows added in this batch (next record: 8175): 8175 (uncompressed bytes in this segment=393737) in 0.07 seconds
+0074.432 (0) Table wpji_bv_ip_store: finishing file(s) (2, 80.1 KB)
+0074.436 (0) Table wpji_bv_lp_requests: Total expected rows (via COUNT): 0
+0074.437 (0) Table wpji_bv_lp_requests: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=742) in 0.00 seconds
+0074.441 (0) Table wpji_bv_lp_requests: finishing file(s) (2, 0.4 KB)
+0074.445 (0) Table wpji_bv_php_error_store: Total expected rows (approximate): 8224
+0074.523 (0) Table wpji_bv_php_error_store: Rows added in this batch (next record: 24417): 8224 (uncompressed bytes in this segment=3466616) in 0.08 seconds
+0074.527 (0) Table wpji_bv_php_error_store: finishing file(s) (2, 56.5 KB)
+0074.531 (0) Table wpji_cleantalk_ac_log: Total expected rows (approximate): 0
+0074.532 (0) Table wpji_cleantalk_ac_log: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=565) in 0.00 seconds
+0074.536 (0) Table wpji_cleantalk_ac_log: finishing file(s) (2, 0.3 KB)
+0074.540 (0) Table wpji_cleantalk_connection_reports: Total expected rows (via COUNT): 0
+0074.541 (0) Table wpji_cleantalk_connection_reports: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=782) in 0.00 seconds
+0074.545 (0) Table wpji_cleantalk_connection_reports: finishing file(s) (2, 0.4 KB)
+0074.549 (0) Table wpji_cleantalk_sessions: Total expected rows (approximate): 38
+0074.551 (0) Table wpji_cleantalk_sessions: Rows added in this batch (next record: 1000): 38 (uncompressed bytes in this segment=8797) in 0.00 seconds
+0074.555 (0) Table wpji_cleantalk_sessions: finishing file(s) (2, 1.9 KB)
+0074.559 (0) Table wpji_cleantalk_sfw: Total expected rows (via COUNT): 0
+0074.560 (0) Table wpji_cleantalk_sfw: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=585) in 0.00 seconds
+0074.564 (0) Table wpji_cleantalk_sfw: finishing file(s) (2, 0.4 KB)
+0074.568 (0) Table wpji_cleantalk_sfw_logs: Total expected rows (approximate): 0
+0074.570 (0) Table wpji_cleantalk_sfw_logs: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=1071) in 0.00 seconds
+0074.573 (0) Table wpji_cleantalk_sfw_logs: finishing file(s) (2, 0.5 KB)
+0074.578 (0) Table wpji_cleantalk_sfw_personal: Total expected rows (via COUNT): 2
+0074.578 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0074.581 (0) Table wpji_cleantalk_sfw_personal: Rows added in this batch (next record: 2): 2 (uncompressed bytes in this segment=771) in 0.01 seconds
+0074.585 (0) Table wpji_cleantalk_sfw_personal: finishing file(s) (2, 0.4 KB)
+0074.589 (0) Table wpji_cleantalk_spamscan_logs: Total expected rows (via COUNT): 2
+0074.590 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0074.592 (0) Table wpji_cleantalk_spamscan_logs: Rows added in this batch (next record: 2): 2 (uncompressed bytes in this segment=920) in 0.00 seconds
+0074.595 (0) Table wpji_cleantalk_spamscan_logs: finishing file(s) (2, 0.5 KB)
+0074.600 (0) Table wpji_cleantalk_ua_bl: Total expected rows (via COUNT): 0
+0074.601 (0) Table wpji_cleantalk_ua_bl: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=553) in 0.00 seconds
+0074.605 (0) Table wpji_cleantalk_ua_bl: finishing file(s) (2, 0.3 KB)
+0074.610 (0) Table wpji_cleantalk_wc_spam_orders: Total expected rows (via COUNT): 0
+0074.611 (0) Table wpji_cleantalk_wc_spam_orders: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=575) in 0.00 seconds
+0074.614 (0) Table wpji_cleantalk_wc_spam_orders: finishing file(s) (2, 0.3 KB)
+0074.618 (0) Table wpji_defender_antibot: Total expected rows (via COUNT): 0
+0074.619 (0) Table wpji_defender_antibot: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=590) in 0.00 seconds
+0074.623 (0) Table wpji_defender_antibot: finishing file(s) (2, 0.4 KB)
+0074.628 (0) Table wpji_defender_audit_log: Total expected rows (via COUNT): 0
+0074.629 (0) Table wpji_defender_audit_log: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=990) in 0.00 seconds
+0074.632 (0) Table wpji_defender_audit_log: finishing file(s) (2, 0.4 KB)
+0074.636 (0) Table wpji_defender_email_log: Total expected rows (via COUNT): 0
+0074.637 (0) Table wpji_defender_email_log: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=599) in 0.00 seconds
+0074.641 (0) Table wpji_defender_email_log: finishing file(s) (2, 0.4 KB)
+0074.645 (0) Table wpji_defender_lockout: Total expected rows (via COUNT): 1
+0074.645 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0074.648 (0) Table wpji_defender_lockout: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=1023) in 0.00 seconds
+0074.652 (0) Table wpji_defender_lockout: finishing file(s) (2, 0.5 KB)
+0074.656 (0) Table wpji_defender_lockout_log: Total expected rows (via COUNT): 0
+0074.658 (0) Table wpji_defender_lockout_log: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=884) in 0.00 seconds
+0074.662 (0) Table wpji_defender_lockout_log: finishing file(s) (2, 0.4 KB)
+0074.666 (0) Table wpji_defender_quarantine: Total expected rows (via COUNT): 0
+0074.667 (0) Table wpji_defender_quarantine: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1266) in 0.00 seconds
+0074.670 (0) Table wpji_defender_quarantine: finishing file(s) (2, 0.5 KB)
+0074.674 (0) Table wpji_defender_scan: Total expected rows (via COUNT): 1
+0074.675 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0074.677 (0) Table wpji_defender_scan: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=820) in 0.00 seconds
+0074.681 (0) Table wpji_defender_scan: finishing file(s) (2, 0.5 KB)
+0074.685 (0) Table wpji_defender_scan_item: Total expected rows (via COUNT): 0
+0074.686 (0) Table wpji_defender_scan_item: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=657) in 0.00 seconds
+0074.690 (0) Table wpji_defender_scan_item: finishing file(s) (2, 0.4 KB)
+0074.694 (0) Table wpji_defender_unlockout: Total expected rows (via COUNT): 0
+0074.695 (0) Table wpji_defender_unlockout: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=732) in 0.00 seconds
+0074.699 (0) Table wpji_defender_unlockout: finishing file(s) (2, 0.4 KB)
+0074.703 (0) Table wpji_e_events: Total expected rows (via COUNT): 1
+0074.704 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0074.706 (0) Table wpji_e_events: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=787) in 0.00 seconds
+0074.710 (0) Table wpji_e_events: finishing file(s) (2, 0.5 KB)
+0074.713 (0) Table wpji_mo2f_user_login_info: Total expected rows (approximate): 1
+0074.716 (0) Table wpji_mo2f_user_login_info: Rows added in this batch (next record: 1000): 1 (uncompressed bytes in this segment=1048) in 0.00 seconds
+0074.720 (0) Table wpji_mo2f_user_login_info: finishing file(s) (2, 0.5 KB)
+0074.723 (0) Table wpji_user_registration_sessions: Total expected rows (approximate): 0
+0074.724 (0) Table wpji_user_registration_sessions: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=719) in 0.00 seconds
+0074.728 (0) Table wpji_user_registration_sessions: finishing file(s) (2, 0.4 KB)
+0074.733 (0) Table wpji_wc_admin_note_actions: Total expected rows (via COUNT): 87
+0074.734 (0) Table is relatively small; fetch_rows will thus be: 100 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0074.738 (0) Table wpji_wc_admin_note_actions: Rows added in this batch (next record: 1119): 87 (uncompressed bytes in this segment=17348) in 0.01 seconds
+0074.743 (0) Table wpji_wc_admin_note_actions: finishing file(s) (2, 2.8 KB)
+0074.748 (0) Table wpji_wc_admin_notes: Total expected rows (via COUNT): 59
+0074.749 (0) Table is relatively small; fetch_rows will thus be: 100 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0074.752 (0) Table wpji_wc_admin_notes: Rows added in this batch (next record: 59): 59 (uncompressed bytes in this segment=29550) in 0.01 seconds
+0074.757 (0) Table wpji_wc_admin_notes: finishing file(s) (2, 6.3 KB)
+0074.762 (0) Table wpji_wc_customer_lookup: Total expected rows (via COUNT): 0
+0074.764 (0) Table wpji_wc_customer_lookup: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1030) in 0.00 seconds
+0074.768 (0) Table wpji_wc_customer_lookup: finishing file(s) (2, 0.5 KB)
+0074.772 (0) Table wpji_wc_download_log: Total expected rows (via COUNT): 0
+0074.773 (0) Table wpji_wc_download_log: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=728) in 0.00 seconds
+0074.777 (0) Table wpji_wc_download_log: finishing file(s) (2, 0.4 KB)
+0074.782 (0) Table wpji_wc_order_addresses: Total expected rows (via COUNT): 1
+0074.782 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0074.785 (0) Table wpji_wc_order_addresses: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=1281) in 0.00 seconds
+0074.789 (0) Table wpji_wc_order_addresses: finishing file(s) (2, 0.6 KB)
+0074.793 (0) Table wpji_wc_order_coupon_lookup: Total expected rows (approximate): 0
+0074.795 (0) Table wpji_wc_order_coupon_lookup: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=727) in 0.00 seconds
+0074.799 (0) Table wpji_wc_order_coupon_lookup: finishing file(s) (2, 0.4 KB)
+0074.803 (0) Table wpji_wc_order_operational_data: Total expected rows (via COUNT): 1
+0074.804 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0074.807 (0) Table wpji_wc_order_operational_data: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=1694) in 0.00 seconds
+0074.810 (0) Table wpji_wc_order_operational_data: finishing file(s) (2, 0.7 KB)
+0074.815 (0) Table wpji_wc_order_product_lookup: Total expected rows (via COUNT): 0
+0074.817 (0) Table wpji_wc_order_product_lookup: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1227) in 0.00 seconds
+0074.820 (0) Table wpji_wc_order_product_lookup: finishing file(s) (2, 0.5 KB)
+0074.825 (0) Table wpji_wc_order_stats: Total expected rows (via COUNT): 0
+0074.826 (0) Table wpji_wc_order_stats: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1204) in 0.00 seconds
+0074.830 (0) Table wpji_wc_order_stats: finishing file(s) (2, 0.5 KB)
+0074.833 (0) Table wpji_wc_order_tax_lookup: Total expected rows (approximate): 0
+0074.835 (0) Table wpji_wc_order_tax_lookup: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=805) in 0.00 seconds
+0074.839 (0) Table wpji_wc_order_tax_lookup: finishing file(s) (2, 0.4 KB)
+0074.843 (0) Table wpji_wc_orders: Total expected rows (via COUNT): 1
+0074.844 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0074.846 (0) Table wpji_wc_orders: Rows added in this batch (next record: 128): 1 (uncompressed bytes in this segment=1797) in 0.00 seconds
+0074.850 (0) Table wpji_wc_orders: finishing file(s) (2, 0.8 KB)
+0074.854 (0) Table wpji_wc_orders_meta: Total expected rows (via COUNT): 20
+0074.855 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0074.856 (0) Table wpji_wc_orders_meta: Rows added in this batch (next record: 21): 20 (uncompressed bytes in this segment=2084) in 0.00 seconds
+0074.860 (0) Table wpji_wc_orders_meta: finishing file(s) (2, 0.9 KB)
+0074.864 (0) Table wpji_wc_product_attributes_lookup: Total expected rows (approximate): 0
+0074.866 (0) Table wpji_wc_product_attributes_lookup: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=843) in 0.00 seconds
+0074.869 (0) Table wpji_wc_product_attributes_lookup: finishing file(s) (2, 0.4 KB)
+0074.873 (0) Table wpji_wc_product_download_directories: Total expected rows (via COUNT): 2
+0074.874 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0074.877 (0) Table wpji_wc_product_download_directories: Rows added in this batch (next record: 2): 2 (uncompressed bytes in this segment=929) in 0.00 seconds
+0074.881 (0) Table wpji_wc_product_download_directories: finishing file(s) (2, 0.5 KB)
+0074.884 (0) Table wpji_wc_rate_limits: Total expected rows (via COUNT): 0
+0074.887 (0) Table wpji_wc_rate_limits: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=679) in 0.00 seconds
+0074.892 (0) Table wpji_wc_rate_limits: finishing file(s) (2, 0.4 KB)
+0074.897 (0) Table wpji_wc_webhooks: Total expected rows (via COUNT): 0
+0074.898 (0) Table wpji_wc_webhooks: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1083) in 0.00 seconds
+0074.903 (0) Table wpji_wc_webhooks: finishing file(s) (2, 0.5 KB)
+0074.910 (0) Table wpji_woocommerce_api_keys: Total expected rows (via COUNT): 0
+0074.911 (0) Table wpji_woocommerce_api_keys: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=885) in 0.00 seconds
+0074.917 (0) Table wpji_woocommerce_api_keys: finishing file(s) (2, 0.4 KB)
+0074.922 (0) Table wpji_woocommerce_attribute_taxonomies: Total expected rows (via COUNT): 0
+0074.923 (0) Table wpji_woocommerce_attribute_taxonomies: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=847) in 0.00 seconds
+0074.928 (0) Table wpji_woocommerce_attribute_taxonomies: finishing file(s) (2, 0.4 KB)
+0074.934 (0) Table wpji_woocommerce_downloadable_product_permissions: Total expected rows (via COUNT): 0
+0074.935 (0) Table wpji_woocommerce_downloadable_product_permissions: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1422) in 0.00 seconds
+0074.940 (0) Table wpji_woocommerce_downloadable_product_permissions: finishing file(s) (2, 0.5 KB)
+0074.947 (0) Table wpji_woocommerce_log: Total expected rows (via COUNT): 0
+0074.948 (0) Table wpji_woocommerce_log: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=654) in 0.00 seconds
+0074.954 (0) Table wpji_woocommerce_log: finishing file(s) (2, 0.4 KB)
+0074.959 (0) Table wpji_woocommerce_order_items: Total expected rows (via COUNT): 1
+0074.960 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0074.962 (0) Table wpji_woocommerce_order_items: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=807) in 0.00 seconds
+0074.966 (0) Table wpji_woocommerce_order_items: finishing file(s) (2, 0.4 KB)
+0074.970 (0) Table wpji_woocommerce_payment_tokens: Total expected rows (via COUNT): 0
+0074.972 (0) Table wpji_woocommerce_payment_tokens: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=756) in 0.00 seconds
+0074.976 (0) Table wpji_woocommerce_payment_tokens: finishing file(s) (2, 0.4 KB)
+0074.981 (0) Table wpji_woocommerce_sessions: Total expected rows (via COUNT): 13
+0074.982 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0074.985 (0) Table wpji_woocommerce_sessions: Rows added in this batch (next record: 20): 13 (uncompressed bytes in this segment=18299) in 0.01 seconds
+0074.990 (0) Table wpji_woocommerce_sessions: finishing file(s) (2, 1.9 KB)
+0074.994 (0) Table wpji_woocommerce_shipping_zone_locations: Total expected rows (via COUNT): 0
+0074.995 (0) Table wpji_woocommerce_shipping_zone_locations: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=816) in 0.00 seconds
+0074.999 (0) Table wpji_woocommerce_shipping_zone_locations: finishing file(s) (2, 0.4 KB)
+0075.003 (0) Table wpji_woocommerce_shipping_zone_methods: Total expected rows (via COUNT): 0
+0075.004 (0) Table wpji_woocommerce_shipping_zone_methods: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=754) in 0.00 seconds
+0075.008 (0) Table wpji_woocommerce_shipping_zone_methods: finishing file(s) (2, 0.4 KB)
+0075.012 (0) Table wpji_woocommerce_shipping_zones: Total expected rows (via COUNT): 0
+0075.013 (0) Table wpji_woocommerce_shipping_zones: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=614) in 0.00 seconds
+0075.017 (0) Table wpji_woocommerce_shipping_zones: finishing file(s) (2, 0.4 KB)
+0075.021 (0) Table wpji_woocommerce_tax_rate_locations: Total expected rows (via COUNT): 0
+0075.021 (0) Table wpji_woocommerce_tax_rate_locations: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=798) in 0.00 seconds
+0075.025 (0) Table wpji_woocommerce_tax_rate_locations: finishing file(s) (2, 0.4 KB)
+0075.029 (0) Table wpji_woocommerce_tax_rates: Total expected rows (via COUNT): 0
+0075.030 (0) Table wpji_woocommerce_tax_rates: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1154) in 0.00 seconds
+0075.034 (0) Table wpji_woocommerce_tax_rates: finishing file(s) (2, 0.4 KB)
+0075.041 (0) Table wpji_yoast_indexable: Total expected rows (via COUNT): 15
+0075.041 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0075.044 (0) Table wpji_yoast_indexable: Rows added in this batch (next record: 16): 15 (uncompressed bytes in this segment=10004) in 0.01 seconds
+0075.049 (0) Table wpji_yoast_indexable: finishing file(s) (2, 2.1 KB)
+0075.052 (0) Table wpji_yoast_indexable_hierarchy: Total expected rows (approximate): 14
+0075.055 (0) Table wpji_yoast_indexable_hierarchy: Rows added in this batch (next record: 1000): 14 (uncompressed bytes in this segment=1030) in 0.00 seconds
+0075.059 (0) Table wpji_yoast_indexable_hierarchy: finishing file(s) (2, 0.4 KB)
+0075.063 (0) Table wpji_yoast_migrations: Total expected rows (via COUNT): 24
+0075.063 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0075.066 (0) Table wpji_yoast_migrations: Rows added in this batch (next record: 24): 24 (uncompressed bytes in this segment=1252) in 0.00 seconds
+0075.070 (0) Table wpji_yoast_migrations: finishing file(s) (2, 0.6 KB)
+0075.074 (0) Table wpji_yoast_primary_term: Total expected rows (via COUNT): 0
+0075.076 (0) Table wpji_yoast_primary_term: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=841) in 0.00 seconds
+0075.080 (0) Table wpji_yoast_primary_term: finishing file(s) (2, 0.4 KB)
+0075.084 (0) Table wpji_yoast_seo_links: Total expected rows (via COUNT): 0
+0075.085 (0) Table wpji_yoast_seo_links: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1023) in 0.00 seconds
+0075.089 (0) Table wpji_yoast_seo_links: finishing file(s) (2, 0.4 KB)
+0075.090 (0) PHP event: code E_WARNING: filemtime(): stat failed for /home/vol3_5/infinityfree.com/if0_38346062/htdocs/wp-content/updraft/backup_2025-04-17-2204_Cyber4Hire_e2ad383ea9f6-db.gz (line 1923, wp-content/plugins/updraftplus/backup.php)
+0075.092 (0) backup_2025-04-17-2204_Cyber4Hire_e2ad383ea9f6-db-table-wpji_options.table.tmpr1699.gz (1/81/fopen): adding to final database dump
+0075.096 (0) backup_2025-04-17-2204_Cyber4Hire_e2ad383ea9f6-db-table-wpji_options.table.gz (2/81/fopen): adding to final database dump
+0075.097 (0) backup_2025-04-17-2204_Cyber4Hire_e2ad383ea9f6-db-table-wpji_users.table.tmpr5.gz (3/81/fopen): adding to final database dump
+0075.098 (0) backup_2025-04-17-2204_Cyber4Hire_e2ad383ea9f6-db-table-wpji_users.table.gz (4/81/fopen): adding to final database dump
+0075.099 (0) backup_2025-04-17-2204_Cyber4Hire_e2ad383ea9f6-db-table-wpji_usermeta.table.tmpr133.gz (5/81/fopen): adding to final database dump
+0075.100 (0) backup_2025-04-17-2204_Cyber4Hire_e2ad383ea9f6-db-table-wpji_usermeta.table.gz (6/81/fopen): adding to final database dump
+0075.101 (0) backup_2025-04-17-2204_Cyber4Hire_e2ad383ea9f6-db-table-wpji_actionscheduler_actions.table.tmpr157.gz (7/81/fopen): adding to final database dump
+0075.101 (0) backup_2025-04-17-2204_Cyber4Hire_e2ad383ea9f6-db-table-wpji_actionscheduler_actions.table.gz (8/81/fopen): adding to final database dump
+0075.102 (0) backup_2025-04-17-2204_Cyber4Hire_e2ad383ea9f6-db-table-wpji_actionscheduler_claims.table.tmpr0.gz (9/81/fopen): adding to final database dump
+0075.103 (0) backup_2025-04-17-2204_Cyber4Hire_e2ad383ea9f6-db-table-wpji_actionscheduler_claims.table.gz (10/81/fopen): adding to final database dump
+0075.104 (0) backup_2025-04-17-2204_Cyber4Hire_e2ad383ea9f6-db-table-wpji_actionscheduler_groups.table.tmpr7.gz (11/81/fopen): adding to final database dump
+0075.105 (0) backup_2025-04-17-2204_Cyber4Hire_e2ad383ea9f6-db-table-wpji_actionscheduler_groups.table.gz (12/81/fopen): adding to final database dump
+0075.105 (0) backup_2025-04-17-2204_Cyber4Hire_e2ad383ea9f6-db-table-wpji_actionscheduler_logs.table.tmpr47.gz (13/81/fopen): adding to final database dump
+0075.106 (0) backup_2025-04-17-2204_Cyber4Hire_e2ad383ea9f6-db-table-wpji_actionscheduler_logs.table.gz (14/81/fopen): adding to final database dump
+0075.107 (0) backup_2025-04-17-2204_Cyber4Hire_e2ad383ea9f6-db-table-wpji_commentmeta.table.tmpr5.gz (15/81/fopen): adding to final database dump
+0075.108 (0) backup_2025-04-17-2204_Cyber4Hire_e2ad383ea9f6-db-table-wpji_commentmeta.table.gz (16/81/fopen): adding to final database dump
+0075.108 (0) backup_2025-04-17-2204_Cyber4Hire_e2ad383ea9f6-db-table-wpji_comments.table.tmpr8.gz (17/81/fopen): adding to final database dump
+0075.109 (0) backup_2025-04-17-2204_Cyber4Hire_e2ad383ea9f6-db-table-wpji_comments.table.gz (18/81/fopen): adding to final database dump
+0075.110 (0) backup_2025-04-17-2204_Cyber4Hire_e2ad383ea9f6-db-table-wpji_links.table.tmpr0.gz (19/81/fopen): adding to final database dump
+0075.111 (0) backup_2025-04-17-2204_Cyber4Hire_e2ad383ea9f6-db-table-wpji_links.table.gz (20/81/fopen): adding to final database dump
+0075.111 (0) backup_2025-04-17-2204_Cyber4Hire_e2ad383ea9f6-db-table-wpji_postmeta.table.tmpr534.gz (21/81/fopen): adding to final database dump
+0075.112 (0) backup_2025-04-17-2204_Cyber4Hire_e2ad383ea9f6-db-table-wpji_postmeta.table.gz (22/81/fopen): adding to final database dump
+0075.113 (0) backup_2025-04-17-2204_Cyber4Hire_e2ad383ea9f6-db-table-wpji_posts.table.tmpr156.gz (23/81/fopen): adding to final database dump
+0075.114 (0) backup_2025-04-17-2204_Cyber4Hire_e2ad383ea9f6-db-table-wpji_posts.table.gz (24/81/fopen): adding to final database dump
+0075.115 (0) backup_2025-04-17-2204_Cyber4Hire_e2ad383ea9f6-db-table-wpji_term_relationships.table.tmpr100001.gz (25/81/fopen): adding to final database dump
+0075.116 (0) backup_2025-04-17-2204_Cyber4Hire_e2ad383ea9f6-db-table-wpji_term_relationships.table.gz (26/81/fopen): adding to final database dump
+0075.116 (0) backup_2025-04-17-2204_Cyber4Hire_e2ad383ea9f6-db-table-wpji_term_taxonomy.table.tmpr24.gz (27/81/fopen): adding to final database dump
+0075.117 (0) backup_2025-04-17-2204_Cyber4Hire_e2ad383ea9f6-db-table-wpji_term_taxonomy.table.gz (28/81/fopen): adding to final database dump
+0075.118 (0) backup_2025-04-17-2204_Cyber4Hire_e2ad383ea9f6-db-table-wpji_termmeta.table.tmpr13.gz (29/81/fopen): adding to final database dump
+0075.118 (0) backup_2025-04-17-2204_Cyber4Hire_e2ad383ea9f6-db-table-wpji_termmeta.table.gz (30/81/fopen): adding to final database dump
+0075.119 (0) backup_2025-04-17-2204_Cyber4Hire_e2ad383ea9f6-db-table-wpji_terms.table.tmpr24.gz (31/81/fopen): adding to final database dump
+0075.120 (0) backup_2025-04-17-2204_Cyber4Hire_e2ad383ea9f6-db-table-wpji_terms.table.gz (32/81/fopen): adding to final database dump
+0075.121 (0) backup_2025-04-17-2204_Cyber4Hire_e2ad383ea9f6-db-table-wpji_wc_category_lookup.table.tmpr1001.gz (33/81/fopen): adding to final database dump
+0075.121 (0) backup_2025-04-17-2204_Cyber4Hire_e2ad383ea9f6-db-table-wpji_wc_category_lookup.table.gz (34/81/fopen): adding to final database dump
+0075.122 (0) backup_2025-04-17-2204_Cyber4Hire_e2ad383ea9f6-db-table-wpji_wc_product_meta_lookup.table.tmpr148.gz (35/81/fopen): adding to final database dump
+0075.123 (0) backup_2025-04-17-2204_Cyber4Hire_e2ad383ea9f6-db-table-wpji_wc_product_meta_lookup.table.gz (36/81/fopen): adding to final database dump
+0075.124 (0) backup_2025-04-17-2204_Cyber4Hire_e2ad383ea9f6-db-table-wpji_wc_reserved_stock.table.tmpr1.gz (37/81/fopen): adding to final database dump
+0075.125 (0) backup_2025-04-17-2204_Cyber4Hire_e2ad383ea9f6-db-table-wpji_wc_reserved_stock.table.gz (38/81/fopen): adding to final database dump
+0075.125 (0) backup_2025-04-17-2204_Cyber4Hire_e2ad383ea9f6-db-table-wpji_wc_tax_rate_classes.table.tmpr3.gz (39/81/fopen): adding to final database dump
+0075.126 (0) backup_2025-04-17-2204_Cyber4Hire_e2ad383ea9f6-db-table-wpji_wc_tax_rate_classes.table.gz (40/81/fopen): adding to final database dump
+0075.127 (0) backup_2025-04-17-2204_Cyber4Hire_e2ad383ea9f6-db-table-wpji_woocommerce_order_itemmeta.table.tmpr10.gz (41/81/fopen): adding to final database dump
+0075.128 (0) backup_2025-04-17-2204_Cyber4Hire_e2ad383ea9f6-db-table-wpji_woocommerce_order_itemmeta.table.gz (42/81/fopen): adding to final database dump
+0075.128 (0) backup_2025-04-17-2204_Cyber4Hire_e2ad383ea9f6-db-table-wpji_woocommerce_payment_tokenmeta.table.tmpr0.gz (43/81/fopen): adding to final database dump
+0075.129 (0) backup_2025-04-17-2204_Cyber4Hire_e2ad383ea9f6-db-table-wpji_woocommerce_payment_tokenmeta.table.gz (44/81/fopen): adding to final database dump
+0075.130 (0) backup_2025-04-17-2204_Cyber4Hire_e2ad383ea9f6-db-table-wpji_bv_activities_store.table.tmpr107.gz (45/81/fopen): adding to final database dump
+0075.130 (0) backup_2025-04-17-2204_Cyber4Hire_e2ad383ea9f6-db-table-wpji_bv_activities_store.table.gz (46/81/fopen): adding to final database dump
+0075.131 (0) backup_2025-04-17-2204_Cyber4Hire_e2ad383ea9f6-db-table-wpji_bv_fw_requests.table.tmpr1084.gz (47/81/fopen): adding to final database dump
+0075.133 (0) backup_2025-04-17-2204_Cyber4Hire_e2ad383ea9f6-db-table-wpji_bv_fw_requests.table.gz (48/81/fopen): adding to final database dump
+0075.133 (0) backup_2025-04-17-2204_Cyber4Hire_e2ad383ea9f6-db-table-wpji_bv_ip_store.table.tmpr8176.gz (49/81/fopen): adding to final database dump
+0075.134 (0) backup_2025-04-17-2204_Cyber4Hire_e2ad383ea9f6-db-table-wpji_bv_ip_store.table.gz (50/81/fopen): adding to final database dump
+0075.135 (0) backup_2025-04-17-2204_Cyber4Hire_e2ad383ea9f6-db-table-wpji_bv_lp_requests.table.tmpr0.gz (51/81/fopen): adding to final database dump
+0075.136 (0) backup_2025-04-17-2204_Cyber4Hire_e2ad383ea9f6-db-table-wpji_bv_lp_requests.table.gz (52/81/fopen): adding to final database dump
+0075.137 (0) backup_2025-04-17-2204_Cyber4Hire_e2ad383ea9f6-db-table-wpji_bv_php_error_store.table.tmpr24418.gz (53/81/fopen): adding to final database dump
+0075.138 (0) backup_2025-04-17-2204_Cyber4Hire_e2ad383ea9f6-db-table-wpji_bv_php_error_store.table.gz (54/81/fopen): adding to final database dump
+0075.139 (0) backup_2025-04-17-2204_Cyber4Hire_e2ad383ea9f6-db-table-wpji_cleantalk_ac_log.table.tmpr1.gz (55/81/fopen): adding to final database dump
+0075.139 (0) backup_2025-04-17-2204_Cyber4Hire_e2ad383ea9f6-db-table-wpji_cleantalk_ac_log.table.gz (56/81/fopen): adding to final database dump
+0075.140 (0) backup_2025-04-17-2204_Cyber4Hire_e2ad383ea9f6-db-table-wpji_cleantalk_connection_reports.table.tmpr0.gz (57/81/fopen): adding to final database dump
+0075.141 (0) backup_2025-04-17-2204_Cyber4Hire_e2ad383ea9f6-db-table-wpji_cleantalk_connection_reports.table.gz (58/81/fopen): adding to final database dump
+0075.142 (0) backup_2025-04-17-2204_Cyber4Hire_e2ad383ea9f6-db-table-wpji_cleantalk_sessions.table.tmpr1001.gz (59/81/fopen): adding to final database dump
+0075.142 (0) backup_2025-04-17-2204_Cyber4Hire_e2ad383ea9f6-db-table-wpji_cleantalk_sessions.table.gz (60/81/fopen): adding to final database dump
+0075.143 (0) backup_2025-04-17-2204_Cyber4Hire_e2ad383ea9f6-db-table-wpji_cleantalk_sfw.table.tmpr0.gz (61/81/fopen): adding to final database dump
+0075.144 (0) backup_2025-04-17-2204_Cyber4Hire_e2ad383ea9f6-db-table-wpji_cleantalk_sfw.table.gz (62/81/fopen): adding to final database dump
+0075.145 (0) backup_2025-04-17-2204_Cyber4Hire_e2ad383ea9f6-db-table-wpji_cleantalk_sfw_logs.table.tmpr1.gz (63/81/fopen): adding to final database dump
+0075.145 (0) backup_2025-04-17-2204_Cyber4Hire_e2ad383ea9f6-db-table-wpji_cleantalk_sfw_logs.table.gz (64/81/fopen): adding to final database dump
+0075.146 (0) backup_2025-04-17-2204_Cyber4Hire_e2ad383ea9f6-db-table-wpji_cleantalk_sfw_personal.table.tmpr3.gz (65/81/fopen): adding to final database dump
+0075.147 (0) backup_2025-04-17-2204_Cyber4Hire_e2ad383ea9f6-db-table-wpji_cleantalk_sfw_personal.table.gz (66/81/fopen): adding to final database dump
+0075.148 (0) backup_2025-04-17-2204_Cyber4Hire_e2ad383ea9f6-db-table-wpji_cleantalk_spamscan_logs.table.tmpr3.gz (67/81/fopen): adding to final database dump
+0075.149 (0) backup_2025-04-17-2204_Cyber4Hire_e2ad383ea9f6-db-table-wpji_cleantalk_spamscan_logs.table.gz (68/81/fopen): adding to final database dump
+0075.149 (0) backup_2025-04-17-2204_Cyber4Hire_e2ad383ea9f6-db-table-wpji_cleantalk_ua_bl.table.tmpr0.gz (69/81/fopen): adding to final database dump
+0075.150 (0) backup_2025-04-17-2204_Cyber4Hire_e2ad383ea9f6-db-table-wpji_cleantalk_ua_bl.table.gz (70/81/fopen): adding to final database dump
+0075.151 (0) backup_2025-04-17-2204_Cyber4Hire_e2ad383ea9f6-db-table-wpji_cleantalk_wc_spam_orders.table.tmpr0.gz (71/81/fopen): adding to final database dump
+0075.152 (0) backup_2025-04-17-2204_Cyber4Hire_e2ad383ea9f6-db-table-wpji_cleantalk_wc_spam_orders.table.gz (72/81/fopen): adding to final database dump
+0075.152 (0) backup_2025-04-17-2204_Cyber4Hire_e2ad383ea9f6-db-table-wpji_defender_antibot.table.tmpr0.gz (73/81/fopen): adding to final database dump
+0075.153 (0) backup_2025-04-17-2204_Cyber4Hire_e2ad383ea9f6-db-table-wpji_defender_antibot.table.gz (74/81/fopen): adding to final database dump
+0075.154 (0) backup_2025-04-17-2204_Cyber4Hire_e2ad383ea9f6-db-table-wpji_defender_audit_log.table.tmpr0.gz (75/81/fopen): adding to final database dump
+0075.155 (0) backup_2025-04-17-2204_Cyber4Hire_e2ad383ea9f6-db-table-wpji_defender_audit_log.table.gz (76/81/fopen): adding to final database dump
+0075.155 (0) backup_2025-04-17-2204_Cyber4Hire_e2ad383ea9f6-db-table-wpji_defender_email_log.table.tmpr0.gz (77/81/fopen): adding to final database dump
+0075.156 (0) backup_2025-04-17-2204_Cyber4Hire_e2ad383ea9f6-db-table-wpji_defender_email_log.table.gz (78/81/fopen): adding to final database dump
+0075.157 (0) backup_2025-04-17-2204_Cyber4Hire_e2ad383ea9f6-db-table-wpji_defender_lockout.table.tmpr2.gz (79/81/fopen): adding to final database dump
+0075.158 (0) backup_2025-04-17-2204_Cyber4Hire_e2ad383ea9f6-db-table-wpji_defender_lockout.table.gz (80/81/fopen): adding to final database dump
+0075.158 (0) backup_2025-04-17-2204_Cyber4Hire_e2ad383ea9f6-db-table-wpji_defender_lockout_log.table.tmpr0.gz (81/81/fopen): adding to final database dump
+0075.159 (0) backup_2025-04-17-2204_Cyber4Hire_e2ad383ea9f6-db-table-wpji_defender_lockout_log.table.gz (82/81/fopen): adding to final database dump
+0075.160 (0) backup_2025-04-17-2204_Cyber4Hire_e2ad383ea9f6-db-table-wpji_defender_quarantine.table.tmpr0.gz (83/81/fopen): adding to final database dump
+0075.160 (0) backup_2025-04-17-2204_Cyber4Hire_e2ad383ea9f6-db-table-wpji_defender_quarantine.table.gz (84/81/fopen): adding to final database dump
+0075.161 (0) backup_2025-04-17-2204_Cyber4Hire_e2ad383ea9f6-db-table-wpji_defender_scan.table.tmpr2.gz (85/81/fopen): adding to final database dump
+0075.162 (0) backup_2025-04-17-2204_Cyber4Hire_e2ad383ea9f6-db-table-wpji_defender_scan.table.gz (86/81/fopen): adding to final database dump
+0075.163 (0) backup_2025-04-17-2204_Cyber4Hire_e2ad383ea9f6-db-table-wpji_defender_scan_item.table.tmpr0.gz (87/81/fopen): adding to final database dump
+0075.163 (0) backup_2025-04-17-2204_Cyber4Hire_e2ad383ea9f6-db-table-wpji_defender_scan_item.table.gz (88/81/fopen): adding to final database dump
+0075.164 (0) backup_2025-04-17-2204_Cyber4Hire_e2ad383ea9f6-db-table-wpji_defender_unlockout.table.tmpr0.gz (89/81/fopen): adding to final database dump
+0075.165 (0) backup_2025-04-17-2204_Cyber4Hire_e2ad383ea9f6-db-table-wpji_defender_unlockout.table.gz (90/81/fopen): adding to final database dump
+0075.166 (0) backup_2025-04-17-2204_Cyber4Hire_e2ad383ea9f6-db-table-wpji_e_events.table.tmpr2.gz (91/81/fopen): adding to final database dump
+0075.166 (0) backup_2025-04-17-2204_Cyber4Hire_e2ad383ea9f6-db-table-wpji_e_events.table.gz (92/81/fopen): adding to final database dump
+0075.167 (0) backup_2025-04-17-2204_Cyber4Hire_e2ad383ea9f6-db-table-wpji_mo2f_user_login_info.table.tmpr1001.gz (93/81/fopen): adding to final database dump
+0075.168 (0) backup_2025-04-17-2204_Cyber4Hire_e2ad383ea9f6-db-table-wpji_mo2f_user_login_info.table.gz (94/81/fopen): adding to final database dump
+0075.169 (0) backup_2025-04-17-2204_Cyber4Hire_e2ad383ea9f6-db-table-wpji_user_registration_sessions.table.tmpr1.gz (95/81/fopen): adding to final database dump
+0075.169 (0) backup_2025-04-17-2204_Cyber4Hire_e2ad383ea9f6-db-table-wpji_user_registration_sessions.table.gz (96/81/fopen): adding to final database dump
+0075.170 (0) backup_2025-04-17-2204_Cyber4Hire_e2ad383ea9f6-db-table-wpji_wc_admin_note_actions.table.tmpr1120.gz (97/81/fopen): adding to final database dump
+0075.171 (0) backup_2025-04-17-2204_Cyber4Hire_e2ad383ea9f6-db-table-wpji_wc_admin_note_actions.table.gz (98/81/fopen): adding to final database dump
+0075.171 (0) backup_2025-04-17-2204_Cyber4Hire_e2ad383ea9f6-db-table-wpji_wc_admin_notes.table.tmpr60.gz (99/81/fopen): adding to final database dump
+0075.173 (0) backup_2025-04-17-2204_Cyber4Hire_e2ad383ea9f6-db-table-wpji_wc_admin_notes.table.gz (100/81/fopen): adding to final database dump
+0075.174 (0) backup_2025-04-17-2204_Cyber4Hire_e2ad383ea9f6-db-table-wpji_wc_customer_lookup.table.tmpr0.gz (101/81/fopen): adding to final database dump
+0075.175 (0) backup_2025-04-17-2204_Cyber4Hire_e2ad383ea9f6-db-table-wpji_wc_customer_lookup.table.gz (102/81/fopen): adding to final database dump
+0075.176 (0) backup_2025-04-17-2204_Cyber4Hire_e2ad383ea9f6-db-table-wpji_wc_download_log.table.tmpr0.gz (103/81/fopen): adding to final database dump
+0075.176 (0) backup_2025-04-17-2204_Cyber4Hire_e2ad383ea9f6-db-table-wpji_wc_download_log.table.gz (104/81/fopen): adding to final database dump
+0075.177 (0) backup_2025-04-17-2204_Cyber4Hire_e2ad383ea9f6-db-table-wpji_wc_order_addresses.table.tmpr2.gz (105/81/fopen): adding to final database dump
+0075.178 (0) backup_2025-04-17-2204_Cyber4Hire_e2ad383ea9f6-db-table-wpji_wc_order_addresses.table.gz (106/81/fopen): adding to final database dump
+0075.178 (0) backup_2025-04-17-2204_Cyber4Hire_e2ad383ea9f6-db-table-wpji_wc_order_coupon_lookup.table.tmpr1.gz (107/81/fopen): adding to final database dump
+0075.179 (0) backup_2025-04-17-2204_Cyber4Hire_e2ad383ea9f6-db-table-wpji_wc_order_coupon_lookup.table.gz (108/81/fopen): adding to final database dump
+0075.180 (0) backup_2025-04-17-2204_Cyber4Hire_e2ad383ea9f6-db-table-wpji_wc_order_operational_data.table.tmpr2.gz (109/81/fopen): adding to final database dump
+0075.181 (0) backup_2025-04-17-2204_Cyber4Hire_e2ad383ea9f6-db-table-wpji_wc_order_operational_data.table.gz (110/81/fopen): adding to final database dump
+0075.181 (0) backup_2025-04-17-2204_Cyber4Hire_e2ad383ea9f6-db-table-wpji_wc_order_product_lookup.table.tmpr0.gz (111/81/fopen): adding to final database dump
+0075.182 (0) backup_2025-04-17-2204_Cyber4Hire_e2ad383ea9f6-db-table-wpji_wc_order_product_lookup.table.gz (112/81/fopen): adding to final database dump
+0075.183 (0) backup_2025-04-17-2204_Cyber4Hire_e2ad383ea9f6-db-table-wpji_wc_order_stats.table.tmpr0.gz (113/81/fopen): adding to final database dump
+0075.183 (0) backup_2025-04-17-2204_Cyber4Hire_e2ad383ea9f6-db-table-wpji_wc_order_stats.table.gz (114/81/fopen): adding to final database dump
+0075.184 (0) backup_2025-04-17-2204_Cyber4Hire_e2ad383ea9f6-db-table-wpji_wc_order_tax_lookup.table.tmpr1.gz (115/81/fopen): adding to final database dump
+0075.185 (0) backup_2025-04-17-2204_Cyber4Hire_e2ad383ea9f6-db-table-wpji_wc_order_tax_lookup.table.gz (116/81/fopen): adding to final database dump
+0075.185 (0) backup_2025-04-17-2204_Cyber4Hire_e2ad383ea9f6-db-table-wpji_wc_orders.table.tmpr129.gz (117/81/fopen): adding to final database dump
+0075.186 (0) backup_2025-04-17-2204_Cyber4Hire_e2ad383ea9f6-db-table-wpji_wc_orders.table.gz (118/81/fopen): adding to final database dump
+0075.187 (0) backup_2025-04-17-2204_Cyber4Hire_e2ad383ea9f6-db-table-wpji_wc_orders_meta.table.tmpr22.gz (119/81/fopen): adding to final database dump
+0075.188 (0) backup_2025-04-17-2204_Cyber4Hire_e2ad383ea9f6-db-table-wpji_wc_orders_meta.table.gz (120/81/fopen): adding to final database dump
+0075.188 (0) backup_2025-04-17-2204_Cyber4Hire_e2ad383ea9f6-db-table-wpji_wc_product_attributes_lookup.table.tmpr1.gz (121/81/fopen): adding to final database dump
+0075.189 (0) backup_2025-04-17-2204_Cyber4Hire_e2ad383ea9f6-db-table-wpji_wc_product_attributes_lookup.table.gz (122/81/fopen): adding to final database dump
+0075.190 (0) backup_2025-04-17-2204_Cyber4Hire_e2ad383ea9f6-db-table-wpji_wc_product_download_directories.table.tmpr3.gz (123/81/fopen): adding to final database dump
+0075.191 (0) backup_2025-04-17-2204_Cyber4Hire_e2ad383ea9f6-db-table-wpji_wc_product_download_directories.table.gz (124/81/fopen): adding to final database dump
+0075.191 (0) backup_2025-04-17-2204_Cyber4Hire_e2ad383ea9f6-db-table-wpji_wc_rate_limits.table.tmpr0.gz (125/81/fopen): adding to final database dump
+0075.192 (0) backup_2025-04-17-2204_Cyber4Hire_e2ad383ea9f6-db-table-wpji_wc_rate_limits.table.gz (126/81/fopen): adding to final database dump
+0075.193 (0) backup_2025-04-17-2204_Cyber4Hire_e2ad383ea9f6-db-table-wpji_wc_webhooks.table.tmpr0.gz (127/81/fopen): adding to final database dump
+0075.194 (0) backup_2025-04-17-2204_Cyber4Hire_e2ad383ea9f6-db-table-wpji_wc_webhooks.table.gz (128/81/fopen): adding to final database dump
+0075.194 (0) backup_2025-04-17-2204_Cyber4Hire_e2ad383ea9f6-db-table-wpji_woocommerce_api_keys.table.tmpr0.gz (129/81/fopen): adding to final database dump
+0075.195 (0) backup_2025-04-17-2204_Cyber4Hire_e2ad383ea9f6-db-table-wpji_woocommerce_api_keys.table.gz (130/81/fopen): adding to final database dump
+0075.196 (0) backup_2025-04-17-2204_Cyber4Hire_e2ad383ea9f6-db-table-wpji_woocommerce_attribute_taxonomies.table.tmpr0.gz (131/81/fopen): adding to final database dump
+0075.196 (0) backup_2025-04-17-2204_Cyber4Hire_e2ad383ea9f6-db-table-wpji_woocommerce_attribute_taxonomies.table.gz (132/81/fopen): adding to final database dump
+0075.197 (0) backup_2025-04-17-2204_Cyber4Hire_e2ad383ea9f6-db-table-wpji_woocommerce_downloadable_product_permissions.table.tmpr0.gz (133/81/fopen): adding to final database dump
+0075.198 (0) backup_2025-04-17-2204_Cyber4Hire_e2ad383ea9f6-db-table-wpji_woocommerce_downloadable_product_permissions.table.gz (134/81/fopen): adding to final database dump
+0075.198 (0) backup_2025-04-17-2204_Cyber4Hire_e2ad383ea9f6-db-table-wpji_woocommerce_log.table.tmpr0.gz (135/81/fopen): adding to final database dump
+0075.199 (0) backup_2025-04-17-2204_Cyber4Hire_e2ad383ea9f6-db-table-wpji_woocommerce_log.table.gz (136/81/fopen): adding to final database dump
+0075.200 (0) backup_2025-04-17-2204_Cyber4Hire_e2ad383ea9f6-db-table-wpji_woocommerce_order_items.table.tmpr2.gz (137/81/fopen): adding to final database dump
+0075.200 (0) backup_2025-04-17-2204_Cyber4Hire_e2ad383ea9f6-db-table-wpji_woocommerce_order_items.table.gz (138/81/fopen): adding to final database dump
+0075.201 (0) backup_2025-04-17-2204_Cyber4Hire_e2ad383ea9f6-db-table-wpji_woocommerce_payment_tokens.table.tmpr0.gz (139/81/fopen): adding to final database dump
+0075.202 (0) backup_2025-04-17-2204_Cyber4Hire_e2ad383ea9f6-db-table-wpji_woocommerce_payment_tokens.table.gz (140/81/fopen): adding to final database dump
+0075.203 (0) backup_2025-04-17-2204_Cyber4Hire_e2ad383ea9f6-db-table-wpji_woocommerce_sessions.table.tmpr21.gz (141/81/fopen): adding to final database dump
+0075.203 (0) backup_2025-04-17-2204_Cyber4Hire_e2ad383ea9f6-db-table-wpji_woocommerce_sessions.table.gz (142/81/fopen): adding to final database dump
+0075.204 (0) backup_2025-04-17-2204_Cyber4Hire_e2ad383ea9f6-db-table-wpji_woocommerce_shipping_zone_locations.table.tmpr0.gz (143/81/fopen): adding to final database dump
+0075.205 (0) backup_2025-04-17-2204_Cyber4Hire_e2ad383ea9f6-db-table-wpji_woocommerce_shipping_zone_locations.table.gz (144/81/fopen): adding to final database dump
+0075.206 (0) backup_2025-04-17-2204_Cyber4Hire_e2ad383ea9f6-db-table-wpji_woocommerce_shipping_zone_methods.table.tmpr0.gz (145/81/fopen): adding to final database dump
+0075.206 (0) backup_2025-04-17-2204_Cyber4Hire_e2ad383ea9f6-db-table-wpji_woocommerce_shipping_zone_methods.table.gz (146/81/fopen): adding to final database dump
+0075.207 (0) backup_2025-04-17-2204_Cyber4Hire_e2ad383ea9f6-db-table-wpji_woocommerce_shipping_zones.table.tmpr0.gz (147/81/fopen): adding to final database dump
+0075.208 (0) backup_2025-04-17-2204_Cyber4Hire_e2ad383ea9f6-db-table-wpji_woocommerce_shipping_zones.table.gz (148/81/fopen): adding to final database dump
+0075.209 (0) backup_2025-04-17-2204_Cyber4Hire_e2ad383ea9f6-db-table-wpji_woocommerce_tax_rate_locations.table.tmpr0.gz (149/81/fopen): adding to final database dump
+0075.209 (0) backup_2025-04-17-2204_Cyber4Hire_e2ad383ea9f6-db-table-wpji_woocommerce_tax_rate_locations.table.gz (150/81/fopen): adding to final database dump
+0075.210 (0) backup_2025-04-17-2204_Cyber4Hire_e2ad383ea9f6-db-table-wpji_woocommerce_tax_rates.table.tmpr0.gz (151/81/fopen): adding to final database dump
+0075.211 (0) backup_2025-04-17-2204_Cyber4Hire_e2ad383ea9f6-db-table-wpji_woocommerce_tax_rates.table.gz (152/81/fopen): adding to final database dump
+0075.211 (0) backup_2025-04-17-2204_Cyber4Hire_e2ad383ea9f6-db-table-wpji_yoast_indexable.table.tmpr17.gz (153/81/fopen): adding to final database dump
+0075.212 (0) backup_2025-04-17-2204_Cyber4Hire_e2ad383ea9f6-db-table-wpji_yoast_indexable.table.gz (154/81/fopen): adding to final database dump
+0075.213 (0) backup_2025-04-17-2204_Cyber4Hire_e2ad383ea9f6-db-table-wpji_yoast_indexable_hierarchy.table.tmpr1001.gz (155/81/fopen): adding to final database dump
+0075.213 (0) backup_2025-04-17-2204_Cyber4Hire_e2ad383ea9f6-db-table-wpji_yoast_indexable_hierarchy.table.gz (156/81/fopen): adding to final database dump
+0075.214 (0) backup_2025-04-17-2204_Cyber4Hire_e2ad383ea9f6-db-table-wpji_yoast_migrations.table.tmpr25.gz (157/81/fopen): adding to final database dump
+0075.215 (0) backup_2025-04-17-2204_Cyber4Hire_e2ad383ea9f6-db-table-wpji_yoast_migrations.table.gz (158/81/fopen): adding to final database dump
+0075.216 (0) backup_2025-04-17-2204_Cyber4Hire_e2ad383ea9f6-db-table-wpji_yoast_primary_term.table.tmpr0.gz (159/81/fopen): adding to final database dump
+0075.216 (0) backup_2025-04-17-2204_Cyber4Hire_e2ad383ea9f6-db-table-wpji_yoast_primary_term.table.gz (160/81/fopen): adding to final database dump
+0075.217 (0) backup_2025-04-17-2204_Cyber4Hire_e2ad383ea9f6-db-table-wpji_yoast_seo_links.table.tmpr0.gz (161/81/fopen): adding to final database dump
+0075.218 (0) backup_2025-04-17-2204_Cyber4Hire_e2ad383ea9f6-db-table-wpji_yoast_seo_links.table.gz (162/81/fopen): adding to final database dump
+0075.223 (0) backup_2025-04-17-2204_Cyber4Hire_e2ad383ea9f6-db.gz: finished writing out complete database file (684.4 KB)
+0075.250 (0) Total database tables backed up: 81 (backup_2025-04-17-2204_Cyber4Hire_e2ad383ea9f6-db.gz, size: 700907, sha1: e7ec97f044baac9c3efe56594f672e0a6bf1e019, sha256: 7401082e945f2cbf53e11281cb67759a77d43e63475c15f0215f7a425521a597)
+0075.256 (0) backup_2025-04-17-2204_Cyber4Hire_e2ad383ea9f6-plugins.zip: plugins: This file has already been successfully processed
+0075.257 (0) backup_2025-04-17-2204_Cyber4Hire_e2ad383ea9f6-themes.zip: themes: This file has already been successfully processed
+0075.258 (0) backup_2025-04-17-2204_Cyber4Hire_e2ad383ea9f6-uploads.zip: uploads: This file has already been successfully processed
+0075.259 (0) backup_2025-04-17-2204_Cyber4Hire_e2ad383ea9f6-others.zip: others: This file has already been successfully processed
+0075.259 (0) backup_2025-04-17-2204_Cyber4Hire_e2ad383ea9f6-db.gz: db: This file has not yet been successfully uploaded: will queue
+0075.260 (0) Saving backup history. Total backup size: 113 MB
+0075.263 (0) Requesting upload of the files that have not yet been successfully uploaded (1)
+0075.266 (0) Cloud backup selection (1/1): none with instance (1/1) (last)
+0075.267 (0) No remote despatch: user chose no remote backup service
+0075.268 (0) Recording as successfully uploaded: backup_2025-04-17-2204_Cyber4Hire_e2ad383ea9f6-db.gz
+0075.272 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0075.274 (0) Number of backup sets in history: 1; groups (db): 1
+0075.275 (0) Examining (for databases) backup set with group_id=0, nonce=e2ad383ea9f6, datestamp=1744927483 (Apr 17 2025 22:04:43)
+0075.275 (0) This backup set is the backup set just made, so will not be deleted.
+0075.275 (0) Number of backup sets in history: 1; groups (files): 1
+0075.276 (0) Examining (for files) backup set with nonce=e2ad383ea9f6, datestamp=1744927483 (Apr 17 2025 22:04:43)
+0075.276 (0) This backup set is the backup set just made, so will not be deleted.
+0075.277 (0) This backup set is the backup set just made, so will not be deleted.
+0075.278 (0) This backup set is the backup set just made, so will not be deleted.
+0075.278 (0) This backup set is the backup set just made, so will not be deleted.
+0075.278 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0075.279 (0) Retain: saving new backup history (sets now: 1) and finishing retain operation
+0075.282 (0) Resume backup (e2ad383ea9f6, 0): finish run
+0075.324 (0) Decremented the semaphore (fd) by 1
+0075.326 (0) Semaphore (fd) unlocked
+0075.327 (0) There were no errors in the uploads, so the 'resume' event (1) is being unscheduled
+0075.333 (0) No email will/can be sent - the user has not configured an email address.
+0075.334 (0) The backup succeeded and is now complete

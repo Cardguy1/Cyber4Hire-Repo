@@ -1,0 +1,458 @@
+[if0_38346062] [2025-02-18 15:04:23] [pid 13407] [software] Ajax HTTPS Check : https://cyber4hire.great-site.net | Result : false
+
+[if0_38346062] [2025-02-18 15:06:04] [pid 14412] [software] Software Details : array (
+  'name' => 'WordPress',
+  'softname' => 'wp',
+  'desc' => 'WordPress is a state-of-the-art publishing platform with a focus on aesthetics, web standards, and usability.',
+  'ins' => 1,
+  'cat' => 'blogs',
+  'type' => 'php',
+  'ver' => '6.7.1',
+  'pre_down' => 1,
+  'path' => '/var/softaculous/wp',
+  'has_theme' => 'WordPress',
+  'update_plugins' => 1,
+  'update_themes' => 1,
+  'verify_dom' => 0,
+  'has_minor' => 1,
+  'idn_dir' => 1,
+  'spacereq' => '75673929',
+  'branch' => 
+  array (
+    26 => 
+    array (
+      'min' => '',
+      'ver' => '6.7.1',
+    ),
+    734 => 
+    array (
+      'min' => '',
+      'ver' => '',
+    ),
+    731 => 
+    array (
+      'min' => '',
+      'ver' => '',
+    ),
+    726 => 
+    array (
+      'min' => '',
+      'ver' => '6.4.5',
+    ),
+    722 => 
+    array (
+      'min' => '',
+      'ver' => '6.3.5',
+    ),
+    718 => 
+    array (
+      'min' => '',
+      'ver' => '6.2.6',
+    ),
+    711 => 
+    array (
+      'min' => '',
+      'ver' => '6.1.7',
+    ),
+    704 => 
+    array (
+      'min' => '',
+      'ver' => '6.0.9',
+    ),
+    702 => 
+    array (
+      'min' => '',
+      'ver' => '5.9.10',
+    ),
+    694 => 
+    array (
+      'min' => '',
+      'ver' => '5.8.10',
+    ),
+    684 => 
+    array (
+      'min' => '',
+      'ver' => '5.7.12',
+    ),
+    678 => 
+    array (
+      'min' => '',
+      'ver' => '5.6.14',
+    ),
+    672 => 
+    array (
+      'min' => '',
+      'ver' => '5.5.15',
+    ),
+    666 => 
+    array (
+      'min' => '',
+      'ver' => '5.4.16',
+    ),
+    660 => 
+    array (
+      'min' => '',
+      'ver' => '5.3.18',
+    ),
+    656 => 
+    array (
+      'min' => '',
+      'ver' => '5.2.21',
+    ),
+    650 => 
+    array (
+      'min' => '',
+      'ver' => '5.1.19',
+    ),
+    648 => 
+    array (
+      'min' => '',
+      'ver' => '5.0.22',
+    ),
+    646 => 
+    array (
+      'min' => '',
+      'ver' => '4.9.26',
+    ),
+  ),
+  'adminurl' => 'wp-admin/',
+)
+
+[if0_38346062] [2025-02-18 15:06:04] [pid 14412] [software] Software Settings : array (
+  'Database Settings' => 
+  array (
+    'dbprefix' => 
+    array (
+      'tag' => '<input type="text" name="dbprefix" id="dbprefix" size="30" value="wpji_">',
+      'head' => 'Table Prefix',
+      'exp' => NULL,
+      'handle' => NULL,
+      'optional' => true,
+      'quick_install' => NULL,
+      'minlen' => NULL,
+      'orig_val' => 'wp_',
+    ),
+  ),
+  'Site Settings' => 
+  array (
+    'site_name' => 
+    array (
+      'tag' => '<input type="text" name="site_name" id="site_name" size="30" value="Cyber4Hire">',
+      'head' => 'Site Name',
+      'exp' => NULL,
+      'handle' => NULL,
+      'optional' => NULL,
+      'quick_install' => NULL,
+      'minlen' => NULL,
+      'orig_val' => 'My Blog',
+    ),
+    'site_desc' => 
+    array (
+      'tag' => '<input type="text" name="site_desc" id="site_desc" size="30" value="For all your cybersecurity needs!">',
+      'head' => 'Site Description',
+      'exp' => NULL,
+      'handle' => NULL,
+      'optional' => true,
+      'quick_install' => NULL,
+      'minlen' => NULL,
+      'orig_val' => 'My WordPress Blog',
+    ),
+    'multisite' => 
+    array (
+      'tag' => '<input type="checkbox" name="multisite" id="multisite" value="off"  >',
+      'head' => 'Enable Multisite (WPMU)',
+      'exp' => 'This feature will Enable Multisite option for your WordPress blog. <br />Your server must support Apache mod_rewrite to use this feature.',
+      'handle' => NULL,
+      'optional' => NULL,
+      'quick_install' => NULL,
+      'minlen' => NULL,
+      'admintag' => 1,
+      'enabled' => 1,
+      'editable' => 1,
+    ),
+    'disable_wp_cron' => 
+    array (
+      'save' => true,
+      'tag' => '<input type="checkbox" name="disable_wp_cron" id="disable_wp_cron" value="off" save="true"  >',
+      'head' => 'Disable WordPress Cron',
+      'exp' => 'If selected, WordPress cron will be disabled and a cron job will be added in your control panel to be executed twice an hour.',
+      'handle' => NULL,
+      'optional' => NULL,
+      'quick_install' => NULL,
+      'minlen' => NULL,
+      'admintag' => 1,
+      'enabled' => 1,
+      'editable' => 1,
+    ),
+  ),
+  'Admin Account' => 
+  array (
+    'admin_username' => 
+    array (
+      'save' => true,
+      'tag' => '<input type="text" name="admin_username" id="admin_username" size="30" value="Group4Member" save="true">',
+      'head' => 'Admin Username',
+      'exp' => NULL,
+      'handle' => '__admin_username',
+      'optional' => NULL,
+      'quick_install' => 1,
+      'minlen' => NULL,
+      'orig_val' => 'admin',
+    ),
+    'admin_pass' => 
+    array (
+      'tag' => '<input type="text" autocomplete="off" name="admin_pass" id="admin_pass" size="30" value="GroupFour122">',
+      'head' => 'Admin Password',
+      'exp' => NULL,
+      'handle' => '__ad_pass',
+      'optional' => NULL,
+      'quick_install' => 1,
+      'minlen' => NULL,
+      'orig_val' => 'pass',
+    ),
+    'admin_email' => 
+    array (
+      'save' => true,
+      'tag' => '<input type="text" name="admin_email" id="admin_email" size="30" value="group4csce5560@gmail.com" softmail="true" save="true">',
+      'head' => 'Admin Email',
+      'exp' => NULL,
+      'handle' => '__email_address',
+      'optional' => NULL,
+      'quick_install' => 1,
+      'minlen' => NULL,
+      'orig_val' => 'admin',
+    ),
+  ),
+  'Choose Language' => 
+  array (
+    'language' => 
+    array (
+      'tag' => '<select name="language" id="language">
+					<option value="en" selected="selected">English</option>
+					<option value="ar">Arabic</option>
+					<option value="sq">Albanian</option>
+					<option value="bg_BG">Bulgarian</option>
+					<option value="ca">Catalan</option>
+					<option value="zh_CN">Chinese - Simplified</option>
+					<option value="zh_TW">Chinese - Traditional</option>
+					<option value="hr">Croatian</option>	
+					<option value="cs_CZ">Czech</option>
+					<option value="da_DK">Danish</option>
+					<option value="nl_NL">Dutch</option>
+					<option value="fi">Finnish</option>
+					<option value="fr_FR">French</option>
+					<option value="de_DE">German</option>
+					<option value="el">Greek</option>
+					<option value="he_IL">Hebrew</option>
+					<option value="hu_HU">Hungarian</option>	
+					<option value="id_ID">Indonesian</option>
+					<option value="it_IT">Italian</option>	
+					<option value="ja">Japanese</option>
+					<option value="ko_KR">Korean</option>
+					<option value="nb_NO">Norwegian</option>
+					<option value="fa_IR">Persian</option>
+					<option value="pl_PL">Polish</option>	
+					<option value="pt_PT">Portuguese</option>
+					<option value="pt_BR">Portuguese - BR</option>
+					<option value="ro_RO">Romanian</option>
+					<option value="ru_RU">Russian</option>
+					<option value="sl_SI">Slovenian</option>
+					<option value="sk_SK">Slovak</option>
+					<option value="es_ES">Spanish</option>
+					<option value="sv_SE">Swedish</option>
+					<option value="th">Thai</option>
+					<option value="tr_TR">Turkish</option>
+					<option value="uk">Ukrainian</option>
+					<option value="vi">Vietnamese</option>
+					<option value="zh_HK">Chinese - Hong Kong</option>
+				</select>',
+      'head' => 'Select Language',
+      'exp' => NULL,
+      'handle' => NULL,
+      'optional' => NULL,
+      'quick_install' => NULL,
+      'minlen' => NULL,
+      'orig_val' => 
+      array (
+        0 => 'en',
+        1 => 'ar',
+        2 => 'sq',
+        3 => 'bg_BG',
+        4 => 'ca',
+        5 => 'zh_CN',
+        6 => 'zh_TW',
+        7 => 'hr',
+        8 => 'cs_CZ',
+        9 => 'da_DK',
+        10 => 'nl_NL',
+        11 => 'fi',
+        12 => 'fr_FR',
+        13 => 'de_DE',
+        14 => 'el',
+        15 => 'he_IL',
+        16 => 'hu_HU',
+        17 => 'id_ID',
+        18 => 'it_IT',
+        19 => 'ja',
+        20 => 'ko_KR',
+        21 => 'nb_NO',
+        22 => 'fa_IR',
+        23 => 'pl_PL',
+        24 => 'pt_PT',
+        25 => 'pt_BR',
+        26 => 'ro_RO',
+        27 => 'ru_RU',
+        28 => 'sl_SI',
+        29 => 'sk_SK',
+        30 => 'es_ES',
+        31 => 'sv_SE',
+        32 => 'th',
+        33 => 'tr_TR',
+        34 => 'uk',
+        35 => 'vi',
+        36 => 'zh_HK',
+      ),
+    ),
+  ),
+  'Select Plugin(s)' => NULL,
+)
+
+[if0_38346062] [2025-02-18 15:06:04] [pid 14412] [software] Software Info : array (
+  'overview' => '<img src="logo.png" style="float:right;" alt="" /><font size="5" color="#182e7a">WordPress</font> is web software you can use to create a beautiful website or blog. We like to say that WordPress is both free and priceless at the same time.<br /><br />
+		The core software is built by hundreds of community volunteers, and when you\'re ready for more there are thousands of plugins and themes available to transform your site into almost anything you can imagine.
+		<br /><br />Over 60 million people have chosen WordPress to power the place on the web they call "home" we\'d love you to join the family.
+		<br /><br />
+		WordPress is an <a href="http://opensource.org/" target="_blank">Open Source</a> project, which means there are hundreds of people all over the world working on it. (More than most commercial platforms.) It also means you are free to use it for anything from your recipe site to a Fortune 500 web site without paying anyone a license fee.',
+  'install' => '',
+  'features' => 'WordPress powers more than 23% of the web - a figure that rises every day. Everything from simple websites, to blogs, to complex portals and enterprise websites, and even applications, are built with WordPress.<br /><br />
+WordPress combines simplicity for users and publishers with under-the-hood complexity for developers. This makes it flexible while still being easy-to-use.<br /><br />
+The following is a list of some of the features that come as standard with WordPress; however, there are literally thousands of plugins that extend what WordPress does, so the actual functionality is nearly limitless. You are also free to do whatever you like with the WordPress code, extend it or modify in any way or use it for commercial projects without any licensing fees. That is the beauty of free software, free refers not only to price but also the freedom to have complete control over it.<br /><br />
+<ul><li><strong>Simplicity</strong>
+Simplicity makes it possible for you to get online and get publishing, quickly. Nothing should get in the way of you getting your website up and your content out there. WordPress is built to make that happen.
+</li>
+<li><strong>Flexibility</strong>
+With WordPress, you can create any type of website you want: a personal blog or website, a photoblog, a business website, a professional portfolio, a government website, a magazine or news website, an online community, even a network of websites. You can make your website beautiful with themes, and extend it with plugins. You can even build your very own application.
+</li>
+<li><strong>Publish with Ease</strong>
+If you\'ve ever created a document, you\'re already a whizz at creating content with WordPress. You can create Posts and Pages, format them easily, insert media, and with the click of a button your content is live and on the web.
+</li>
+<li><strong>Publishing Tools</strong>
+WordPress makes it easy for you to manage your content. Create drafts, schedule publication, and look at your post revisions. Make your content public or private, and secure posts and pages with a password.
+</li>
+<li><strong>User Management</strong>
+Not everyone requires the same access to your website. Administrators manage the site, editors work with content, authors and contributors write that content, and subscribers have a profile that they can manage. This lets you have a variety of contributors to your website, and let others simply be part of your community.
+</li>
+<li><strong>Media Management</strong>
+They say a picture says a thousand words, which is why it\'s important for you to be able to quickly and easily upload images and media to WordPress. Drag and drop your media into the uploader to add it to your website. Add alt text, captions, and titles, and insert images and galleries into your content. We\'ve even added a few image editing tools you can have fun with.
+</li>
+<li><strong>Full Standards Compliance</strong>
+Every piece of WordPress generated code is in full compliance with the standards set by the W3C. This means that your website will work in today\'s browser, while maintaining forward compatibility with the next generation of browser. Your website is a beautiful thing, now and in the future.
+</li>
+<li><strong>Easy Theme System</strong>
+WordPress comes bundled with two default themes, but if they aren\'t for you there\'s a theme directory with thousands of themes for you to create a beautiful website. None of those to your taste? Upload your own theme with the click of a button. It only takes a few seconds for you to give your website a complete makeover.
+</li>
+<li><strong>Extend with Plugins</strong>
+WordPress comes packed full of features for every user, for every other feature there\'s a plugin directory with thousands of plugins. Add complex galleries, social networking, forums, social media widgets, spam protection, calendars, fine-tune controls for search engine optimization, and forms.
+</li>
+<li><strong>Built-in Comments</strong>
+Your blog is your home, and comments provide a space for your friends and followers to engage with your content. WordPress\'s comment tools give you everything you need to be a forum for discussion and to moderate that discussion.
+</li>
+<li><strong>Search Engine Optimized</strong>
+WordPress is optimized for search engines right out of the box. For more fine-grained SEO control, there are plenty of <a href="https://wordpress.org/plugins/search.php?q=SEO">SEO plugins</a> to take care of that for you.
+</li>
+<li><strong>Multilingual</strong>
+WordPress is available in more than 70 languages. If you or the person you\'re building the website for would prefer to use WordPress in a language other than English, <a href="https://codex.wordpress.org/WordPress_in_Your_Language">that\'s easy to do</a>.
+</li>
+<li><strong>Own Your Data</strong>
+Hosted services come and go. If you\'ve ever used a service that disappeared, you know how traumatic that can be. If you\'ve ever seen adverts appear on your website, you\'ve probably been pretty annoyed. Using WordPress means no one has access to your content. Own your data, all of it - your website, your content, your data.
+</li>
+<li><strong>Freedom</strong>
+WordPress is licensed under the GPL which was created to protect your freedoms. You are free to use WordPress in any way you choose: install it, use it, modify it, distribute it. Software freedom is the foundation that WordPress is built on.
+</li>
+<li><strong>Community</strong>
+As the most popular open source CMS on the web, WordPress has a vibrant and supportive community. Ask a question on the support forums and get help from a volunteer, attend a WordCamp or Meetup to learn more about WordPress, read blogs posts and tutorials about WordPress. Community is at the heart of WordPress, making it what it is today.
+</li>
+<li><strong>Contribute</strong>
+You can be WordPress too! Help to build WordPress, answer questions on the support forums, write documentation, translate WordPress into your language, speak at a WordCamp, write about WordPress on your blog. Whatever your skill, we\'d love to have you!
+</li>
+</ul>',
+  'demo' => 'http://www.softaculous.com/demos/WordPress',
+  'ratings' => 'http://www.softaculous.com/softwares/blogs/WordPress',
+  'support' => 'http://www.wordpress.org/',
+  'release_date' => '21-11-2024',
+  'mod' => '246',
+  'mod_files' => '7',
+  'import' => true,
+)
+
+[if0_38346062] [2025-02-18 15:06:04] [pid 14412] [software] Finished calling pre install hooks
+
+[if0_38346062] [2025-02-18 15:06:04] [pid 14412] [software] Task Key : RqhmmwhS6lhHLfuQ11Gr0yao9zJ8M6XP
+
+[if0_38346062] [2025-02-18 15:06:05] [pid 14412] [software] http://cyber4hire.great-site.net Completed DB Details Checks : array (
+  'adminurl' => 'wp-admin/',
+  'softdomain' => 'cyber4hire.great-site.net',
+  'softdirectory' => '',
+  'softpath' => '/home/vol3_5/infinityfree.com/if0_38346062/htdocs',
+  'softurl' => 'http://cyber4hire.great-site.net',
+  'softdb' => 'if0_38346062_wp50',
+  'softdbuser' => '38346062_1',
+  'softdbhost' => 'sql105.byetcluster.com',
+  'softdbpass' => '6!.C39Sp4D',
+)
+
+[if0_38346062] [2025-02-18 15:06:05] [pid 14412] [software] http://cyber4hire.great-site.net Processed Posted Settings : array (
+  'adminurl' => 'wp-admin/',
+  'softdomain' => 'cyber4hire.great-site.net',
+  'softdirectory' => '',
+  'softpath' => '/home/vol3_5/infinityfree.com/if0_38346062/htdocs',
+  'softurl' => 'http://cyber4hire.great-site.net',
+  'softdb' => 'if0_38346062_wp50',
+  'softdbuser' => '38346062_1',
+  'softdbhost' => 'sql105.byetcluster.com',
+  'softdbpass' => '6!.C39Sp4D',
+  'dbprefix' => 'wpji_',
+  'site_name' => 'Cyber4Hire',
+  'site_desc' => 'For all your cybersecurity needs!',
+  'multisite' => '',
+  'disable_wp_cron' => '',
+  'admin_username' => 'Group4Member',
+  'admin_pass' => '$P$BQTUwYG2grCodDiT9cJL6ZGVD9U0M./',
+  'admin_email' => 'group4csce5560@gmail.com',
+  'language' => 'en',
+)
+
+[if0_38346062] [2025-02-18 15:06:05] [pid 14412] [software] http://cyber4hire.great-site.net Finished loading __post_settings
+
+[if0_38346062] [2025-02-18 15:06:05] [pid 14412] [software] http://cyber4hire.great-site.net Completed Requirement Checks
+
+[if0_38346062] [2025-02-18 15:06:05] [pid 14412] [software] http://cyber4hire.great-site.net Creating DB : if0_38346062_wp50 and DB User : 38346062_1
+
+[if0_38346062] [2025-02-18 15:06:12] [pid 14412] [software] http://cyber4hire.great-site.net Unzipped Package successfully
+
+[if0_38346062] [2025-02-18 15:06:12] [pid 14412] [software] http://cyber4hire.great-site.net Calling Software installer
+
+[if0_38346062] [2025-02-18 15:06:30] [pid 14412] [software] http://cyber4hire.great-site.net Finished Software installer
+
+[if0_38346062] [2025-02-18 15:06:30] [pid 14412] [software] http://cyber4hire.great-site.net Modifying Scripts footer links
+
+[if0_38346062] [2025-02-18 15:06:30] [pid 14412] [software] http://cyber4hire.great-site.net Footer Links File : /home/vol3_5/infinityfree.com/if0_38346062/htdocs/wp-content/themes/twentytwentyfour/patterns/footer.php
+
+[if0_38346062] [2025-02-18 15:06:30] [pid 14412] [software] http://cyber4hire.great-site.net Footer Links File : /home/vol3_5/infinityfree.com/if0_38346062/htdocs/wp-content/themes/twentytwentythree/patterns/footer-default.php
+
+[if0_38346062] [2025-02-18 15:06:30] [pid 14412] [software] http://cyber4hire.great-site.net Footer Links File : /home/vol3_5/infinityfree.com/if0_38346062/htdocs/wp-content/themes/twentytwentytwo/inc/patterns/footer-default.php
+
+[if0_38346062] [2025-02-18 15:06:30] [pid 14412] [software] http://cyber4hire.great-site.net Saving installation details
+
+[if0_38346062] [2025-02-18 15:06:30] [pid 14412] [software] http://cyber4hire.great-site.net Finished Install
+
+[if0_38346062] [2025-02-18 15:24:48] [pid 29986] [software] Ajax HTTPS Check : https://cyber4hire.great-site.net | Result : false
+
+[if0_38346062] [2025-04-01 13:38:31] [pid 23907] [wordpress_manager] http://cyber4hire.great-site.net Installation version mismatch. Version in Softaculous Records : 6.7.1 Actual version : 6.7.2
+
+[if0_38346062] [2025-04-01 13:38:31] [pid 23907] [wordpress_manager] http://cyber4hire.great-site.net Installation's Actual Version Updated In Softaculous Records
+
+[if0_38346062] [2025-04-18 18:14:27] [pid 11674] [wordpress_manager] http://cyber4hire.great-site.net Installation version mismatch. Version in Softaculous Records : 6.7.2 Actual version : 6.8
+
+[if0_38346062] [2025-04-18 18:14:27] [pid 11674] [wordpress_manager] http://cyber4hire.great-site.net Installation's Actual Version Updated In Softaculous Records
+
